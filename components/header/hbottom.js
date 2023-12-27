@@ -12,7 +12,7 @@ return(
 <div className="hrrd-hero-content">
     <h1>{HOMEHEADER.HomeTitle}</h1>
 
-<div>   
+<div className="hrrd-hero-btn-container">   
 <div className="hrrd-hero-btn-wrap">
     <Link href="/"><a className="common-btn btn-hrrd-1">{HOMEHEADER.ActionBtnText1}</a></Link>
 </div>

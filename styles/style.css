@@ -214,6 +214,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   position: relative;
   z-index: 1;
   overflow: hidden;
+
 }
 
 .common-btn:hover {
@@ -261,6 +262,9 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
           backdrop-filter: blur(100px);
   border-radius: 4px;
   color: #333333;
+  padding: 15px 32px;
+  text-align: center;
+
 }
 
 .common-btn.btn-hrrd-2:hover {
@@ -274,6 +278,10 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .common-btn.btn-hrrd-1 {
   background: #FF7342;
   border-radius: 4px;
+  padding: 15px 32px;
+  text-align: center;
+  margin-right: 10px;
+  
 }
 
 .common-btn.btn-hrrd-1:hover {
@@ -297,6 +305,10 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .common-btn.btn-tripp-1::before {
   background: #221314;
+}
+
+.hrrd-hero-btn-container{
+  display: flex;
 }
 
 .title-mark {

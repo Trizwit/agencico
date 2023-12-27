@@ -25,25 +25,22 @@ return(
   <FuturedItem
    icon="/assets/images/icon/featured-icon-2.png"
    title="Streamlined Issuance and Verification"
-   desc="Ensure the integrity of your digital credentials with our blockchain-powered platform. 
-  Leverage the security and immutability of blockchain technology to safeguard against tampering and unauthorized alterations,
-  providing a trusted and reliable source of information."
+   desc="Experience efficiency in credential management. Our platform simplifies the issuance process, allowing organizations to effortlessly create and distribute digital documents. 
+   Recipients can then verify their credentials with ease, reducing administrative overhead and enhancing overall workflow productivity."
   />
 
  <FuturedItem
    icon="/assets/images/icon/featured-icon-3.png"
    title="Enhanced Trust and Transparency"
-   desc="Ensure the integrity of your digital credentials with our blockchain-powered platform. 
-  Leverage the security and immutability of blockchain technology to safeguard against tampering and unauthorized alterations,
-  providing a trusted and reliable source of information."
+   desc="Build trust through transparency. The blockchain ledger ensures a transparent and auditable trail of credential issuance and verification, instilling confidence in both issuers and recipients.
+  Trust becomes an inherent feature of your credentialing process."
   />
 
   <FuturedItem
    icon="/assets/images/icon/featured-icon-4.png"
    title="Global Accessibility"
-   desc="Ensure the integrity of your digital credentials with our blockchain-powered platform. 
-   Leverage the security and immutability of blockchain technology to safeguard against tampering and unauthorized alterations, 
-   providing a trusted and reliable source of information."
+   desc="Empower users with universal access to their credentials. Our platform transcends geographical boundaries, enabling individuals to access and present their digital documents anytime, anywhere. 
+   Facilitate seamless interactions across borders and ensure the widespread recognition of achievements."
   />
 
   

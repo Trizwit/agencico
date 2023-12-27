@@ -18,36 +18,29 @@ return(
    AnimeDelay="400ms"
    icon="/assets/images/icon/featured-icon-1.png"
    title="Secure and Immutable Credentials"
-   desc="Ensure the integrity of your digital credentials with our blockchain-powered platform. 
-   Leverage the security and immutability of blockchain technology to safeguard against tampering and unauthorized alterations, 
-   providing a trusted and reliable source of information."
+   desc="Secure digital credentials with our blockchain platform for tamper-proof integrity. Leverage its security for trust and reliability, 
+guarding against unauthorized alterations."
   />
 
   <FutureItem
    AnimeDelay="500ms"
    icon="/assets/images/icon/featured-icon-2.png"
    title="Streamlined Issuance and Verification"
-   desc="Ensure the integrity of your digital credentials with our blockchain-powered platform. 
-   Leverage the security and immutability of blockchain technology to safeguard against tampering and unauthorized alterations, 
-   providing a trusted and reliable source of information."
+   desc="Streamline credential management, simplifying issuance and verification for organizations. Reduce administrative overhead and boost workflow productivity."
   />
 
  <FutureItem
    AnimeDelay="600ms"
    icon="/assets/images/icon/featured-icon-3.png"
    title="Enhanced Trust and Transparency"
-   desc="Ensure the integrity of your digital credentials with our blockchain-powered platform.
-  Leverage the security and immutability of blockchain technology to safeguard against tampering and unauthorized alterations,
-  providing a trusted and reliable source of information."
+   desc="Instill trust with blockchain transparency in credentialing. Ensure a clear, auditable trail for issuance and verification, making trust inherent in your process."
   />
 
   <FutureItem
    AnimeDelay="700ms"
    icon="/assets/images/icon/featured-icon-4.png"
    title="Global Accessibility"
-   desc="Ensure the integrity of your digital credentials with our blockchain-powered platform.
-  Leverage the security and immutability of blockchain technology to safeguard against tampering and unauthorized alterations, 
-  providing a trusted and reliable source of information."
+   desc="Enable universal access to credentials; our platform transcends boundaries for digital document retrieval anywhere. Ensure seamless cross-border interactions, fostering widespread recognition of achievements."
   />
 
 </div>
