@@ -6,7 +6,7 @@ const FooterConstant={
     LinkedinLink: "/",
     TwitterLink: "/",
     InstagramLink: "/",
-    copyrightText: "Copyright©chakri.All right reserved",
+    copyrightText: "© Copyright 2023 Trizwit . All Rights Reserved",
     copyrightTwo: "<p>Copyright©<a href='/'>chakri</a>.All right reserved</p>",
     phone: "971 5546 963",
     email: "example@gmail.com",

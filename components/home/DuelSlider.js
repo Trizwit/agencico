@@ -53,11 +53,11 @@ return(
          ref={txtSliderRef}
         >
         <div className="testimonial-content-slide-box">
-            <h2>“I’ve downloaded Chakri from my Google Play  about 1 years ago. Chakri make the prototyping process so easy and faster. I feel this is the best apps for Prototyping use”</h2>
+            <h2>“Explore the future of credentialing with us — where security, efficiency, and innovation converge to redefine how we recognize and validate achievements.”</h2>
             <p>— Ferdinand Stingo - Co Founder of CocoPay Company</p> 
         </div>
         <div className="testimonial-content-slide-box">
-            <h2>“I’ve downloaded Chakri from my Google Play  about 1 years ago. Chakri make the prototyping process so easy and faster. I feel this is the best apps for Prototyping use”</h2>
+            <h2>“Explore the future of credentialing with us — where security, efficiency, and innovation converge to redefine how we recognize and validate achievements.”</h2>
             <p>— Ferdinand Stingo - Co Founder of CocoPay Company</p> 
         </div>
         </Slider>
@@ -123,11 +123,11 @@ return(
          {...TextSliderSettingMobile}
         >
         <div className="testimonial-content-slide-box">
-            <h2>“I’ve downloaded Chakri from my Google Play  about 1 years ago. Chakri make the prototyping process so easy and faster. I feel this is the best apps for Prototyping use”</h2>
+            <h2>“Explore the future of credentialing with us — where security, efficiency, and innovation converge to redefine how we recognize and validate achievements.”</h2>
             <p>— Ferdinand Stindl - Co Founder of CocoPay Company</p> 
         </div>
         <div className="testimonial-content-slide-box">
-            <h2>“I’ve downloaded Chakri from my Google Play  about 1 years ago. Chakri make the prototyping process so easy and faster. I feel this is the best apps for Prototyping use”</h2>
+            <h2>“Explore the future of credentialing with us — where security, efficiency, and innovation converge to redefine how we recognize and validate achievements.”</h2>
             <p>— Ferdinand Stindl - Co Founder of CocoPay Company</p> 
         </div>
         </Slider>

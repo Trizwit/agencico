@@ -1,6 +1,6 @@
 
 const HomeDetailOne={
-    "Title":"Everything you <br/> need in one <span>place</span>",
+    "Title":"Who <br/><span>Benefits</span>",
     "Income":"Income This Month",
     "Price":"$ 50.36",
     "IncomeIncressed":"12%",
@@ -13,10 +13,10 @@ const HomeDetailOne={
     "MeetingIcon5":"/assets/images/cart/hrrd-cart-5.png",
    
 
-    "Feature1":"Real-time data",
-    "Feature2":"End-to-end encryption",
-    "Feature3":"FDIC Insured",
-    "Feature4":"REST API enabled",
+    "Feature1":"Educational Institutions",
+    "Feature2":"Corporations and Employers",
+    "Feature3":"Individuals and Professionals",
+    "Feature4":"Government and Regulatory Bodies",
     "ActionBtn":"Try it Out Free"
     
 }

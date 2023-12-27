@@ -72,28 +72,28 @@ return(
 						<li><Link href="/agency"><a>Digital Agency</a></Link></li>
 					</ul>
 				</li>
-				<li><Link href="/about"><a>About</a></Link></li>
-				<li><Link href="/services"><a>Services</a></Link></li>
+				<li><Link href="/about"><a>Verified accounts</a></Link></li>
+				<li><Link href="/services"><a>My Documents</a></Link></li>
 				<li className="has-child-menu">
-					<Link href="/"><a>Blog</a></Link>
+					<Link href="/"><a>Create</a></Link>
 					<i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
 					<ul className="sub-menu">
 						<li><Link href="/blog"><a>Blog</a></Link></li>
 						<li><Link href="/blog-detail"><a>Blog Details</a></Link></li>
 					</ul>
 				</li>
-				<li><Link href="/contact"><a>Contact</a></Link></li>
+				<li><Link href="/contact"><a>Verify</a></Link></li>
 			</ul>
 			<div className="menu-btn-wrap d-block d-lg-none">
-			<Link href="/"><a className="common-btn btn-hrrd-2">Register</a></Link>
-			<Link href="/"><a className="common-btn btn-hrrd-1">Sing In</a></Link>
+			<Link href="/"><a className="common-btn btn-hrrd-2">Login</a></Link>
+			<Link href="/"><a className="common-btn btn-hrrd-1">Connect Wallet</a></Link>
 			</div>
 		</nav>
 	</div>
 	<div className="col-xxl-3 col-xl-4 col-lg-3 d-none d-lg-block">
 		<div className="menu-btn-wrap">
-			<Link href="/"><a className="common-btn btn-hrrd-2">Register</a></Link>
-			<Link href="/"><a className="common-btn btn-hrrd-1">Sing In</a></Link>
+			<Link href="/"><a className="common-btn btn-hrrd-2">Login</a></Link>
+			<Link href="/"><a className="common-btn btn-hrrd-1">Connect Wallet</a></Link>
 		</div>
 	</div>
 </div>

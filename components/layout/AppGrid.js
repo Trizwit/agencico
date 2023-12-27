@@ -8,7 +8,7 @@ return(
 <div className="row">
     <div className="col-lg-12">
         <div className="hrdd-section-title text-center wow animate fadeInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
-            <h1>Easy to <span>Intricate</span> <br/> Your Apps</h1>
+            <h1>Why <span>Choose</span> <br/>Us</h1>
         </div>
     </div>
 </div>

@@ -1,6 +1,6 @@
 
 const HomeConstantTwo={
-  "Title":"<span>Collaborate</span> with your team anytime, anywhere.",
+  "Title":"<span>How It</span> Works",
   "CoverImage":"/assets/images/shape/collaborate-hrrd.png",
   "desc":"Continually administrate process-centric human capital rather than bleeding-edge methodologies. Distinctively supply accurate methods of empowerment before.",
   "Fetured1":"Organize your data",

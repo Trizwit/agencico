@@ -11,9 +11,18 @@ return(
 <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 <div className="hrrd-hero-content">
     <h1>{HOMEHEADER.HomeTitle}</h1>
+
+<div>   
 <div className="hrrd-hero-btn-wrap">
-    <Link href="/"><a className="common-btn btn-hrrd-1">{HOMEHEADER.ActionBtnText}</a></Link>
+    <Link href="/"><a className="common-btn btn-hrrd-1">{HOMEHEADER.ActionBtnText1}</a></Link>
 </div>
+
+<div className="hrrd-hero-btn-wrap">
+    <Link href="/"><a className="common-btn btn-hrrd-1">{HOMEHEADER.ActionBtnText2}</a></Link>
+</div>
+
+</div> 
+
     <div className="hrrd-hero-client-logo">
         <ul>
             <li><Image src={HOMEHEADER.Logo1} width="90" height="22"/></li>
