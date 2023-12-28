@@ -278,10 +278,10 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .common-btn.btn-hrrd-1 {
-  background: transparent;
-  border-color: #0075FF;
+  border: 2px solid #0075FF;
+  background-color: transparent;
   color: #0075FF;
-  border-width: 1px;
+  border-width: 2px;
   border-radius: 4px;
   padding: 15px 32px;
   text-align: center;
