@@ -161,6 +161,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .mt-50 {
   margin-top: 50px;
+
 }
 
 .mt-24 {
@@ -207,7 +208,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #3B3B3B;
   padding: 20px 44px;
   -webkit-transition: .5s;
   transition: .5s;
@@ -257,13 +258,14 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .common-btn.btn-hrrd-2 {
-  background: #FFE5A3;
+  background: #0075FF;
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
   border-radius: 4px;
-  color: #333333;
+  color: #ffffff;
   padding: 15px 32px;
   text-align: center;
+  margin-right: 10px;
 
 }
 
@@ -272,24 +274,26 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .common-btn.btn-hrrd-2::before {
-  background: #FF7342;
+  background: #0075FF;
 }
 
 .common-btn.btn-hrrd-1 {
-  background: #FF7342;
+  background: transparent;
+  border-color: #0075FF;
+  color: #0075FF;
+  border-width: 1px;
   border-radius: 4px;
   padding: 15px 32px;
   text-align: center;
-  margin-right: 10px;
   
 }
 
 .common-btn.btn-hrrd-1:hover {
-  color: #3B3B3B;
+  color: #fff;
 }
 
 .common-btn.btn-hrrd-1::before {
-  background: #FFE5A3;
+  background: #0075FF;
 }
 
 .common-btn.btn-tripp-1 {
@@ -365,6 +369,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   line-height: 58px;
   color: #3B3B3B;
   display: inline-block;
+  margin-top: 20px;
 }
 
 .hrdd-section-title h1 span {
@@ -488,7 +493,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   font-size: 16px;
   line-height: 21px;
   text-align: center;
-  color: #FFFFFF;
+  color: #3B3B3B;
   gap: 12px;
   border: none;
   padding: 24px 45px;
@@ -527,7 +532,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: #FFFFFF;
+  color: #3B3B3B;
   font-family: "Circular Std bold";
   background: #404C99;
   border-radius: 15px;
@@ -551,7 +556,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #3B3B3B;
   display: inline-block;
   background: #ffa600;
   -webkit-box-shadow: 5px 10px 30px rgba(255, 165, 2, 0.3);
@@ -732,7 +737,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   font-family: "boxicons";
   content: "";
   font-size: 20px;
-  color: #183b56a3;
+  color: #3B3B3B;
   -webkit-transition: all .4s;
   transition: all .4s;
 }
@@ -749,14 +754,14 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  color: #183B56;
+  color: #3B3B3B;
   position: relative;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .main-nav > ul > li:hover > a {
-  color: #FF8345;
+  color: #0075FF;
 }
 
 .main-nav > ul > li:hover > a:after {
@@ -813,7 +818,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .main-nav ul li .sub-menu > li a:hover {
-  color: #FF8345;
+  color: #0075FF;
 }
 
 .main-nav .fl {
@@ -896,6 +901,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   position: relative;
   padding-top: 161px;
   background: #F9FCFB;
+  
 }
 
 .hero-content h1 {
@@ -909,7 +915,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .hero-content .hero-search-form {
   position: relative;
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 10px 20px 40px rgba(195, 199, 197, 0.1);
           box-shadow: 10px 20px 40px rgba(195, 199, 197, 0.1);
   border-radius: 10px;
@@ -1179,7 +1185,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   font-size: 24px;
   line-height: 34px;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
+  color: #3B3B3B;
 }
 
 .job-category-box.job-category-explore h2 i {
@@ -1638,8 +1644,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-menu .main-nav > ul > li:hover > a {
-  color: #FF7342;
-  border-bottom: 1px solid #FF7342;
+  color: #0075FF;
+  border-bottom: 1px solid #0075FF;
 }
 
 .hrrd-menu .main-nav > ul > li > a {
@@ -1648,8 +1654,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-menu .main-nav > ul > li > a.active {
-  color: #FF7342;
-  border-bottom: 1px solid #FF7342;
+  color: #0075FF;
+  border-bottom: 1px solid #0075FF;
 }
 
 .hrrd-menu .main-nav > ul > li.has-child-menu:after {
@@ -1826,9 +1832,9 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFEDE7), to(#FFFFFF));
-  background: linear-gradient(180deg, #FFEDE7 0%, #FFFFFF 100%);
+  background: linear-gradient(283deg, rgba(0, 255, 236, 0.28) 51.32%, #FFF 91.75%);
   padding: 220px 0 134px;
+
 }
 
 .hrrd-hero-shape {
@@ -1848,7 +1854,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 5px 30px 56.1276px rgba(55, 55, 55, 0.1098);
           box-shadow: 5px 30px 56.1276px rgba(55, 55, 55, 0.1098);
   border-radius: 20px;
@@ -1864,11 +1870,12 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .featured-box:hover .featured-content h2 {
-  color: #1a1a1a;
+  color: #3B3B3B;
 }
 
 .featured-box .featured-content {
   padding-left: 23px;
+  color: #3B3B3B;
 }
 
 .featured-box .featured-content h2 {
@@ -1920,7 +1927,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .everything-info ul li {
   height: 70px;
-  background: #FFF3EF;
+  background: #ffffff;
   border-radius: 4px;
   margin-bottom: 16px;
   display: -webkit-box;
@@ -1951,7 +1958,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   content: "";
   width: 8px;
   height: 8px;
-  background: #FF7342;
+  background: #0075FF;
   top: 50%;
   left: 31px;
   -webkit-transform: translateY(-50%);
@@ -1964,7 +1971,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .everything-info ul li i {
-  color: #230B34;
+  color: #3B3B3B;
 }
 
 .everything-img-wrap {
@@ -2143,7 +2150,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   font-family: "Circular Std medium";
   font-style: normal;
   font-size: 17.3871px;
-  color: #FFFFFF;
+  color: #3B3B3B;
   padding: 15px 24px;
 }
 
@@ -2277,8 +2284,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .collaborate-info .collaborate-info-list p i {
-  color: #FF7342;
-  background: rgba(255, 115, 66, 0.2);
+  color: #0075FF;
+  background: rgba(65, 65, 65, 0.2);
   mix-blend-mode: normal;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -2649,7 +2656,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   border-radius: 4px;
   font-style: normal;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #3B3B3B;
   width: 100%;
   display: inline-block;
   text-align: center;
@@ -2986,7 +2993,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .single-destination-slide-box .destination-slide-info .destination-slide-content h3 {
   font-weight: 600;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #3B3B3B;
 }
 
 .single-destination-slide-box .destination-slide-info .destination-slide-content p {
@@ -2998,7 +3005,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .single-destination-slide-box .destination-slide-info .destination-slide-rating h3 {
   font-weight: 600;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #3B3B3B;
   line-height: 1;
 }
 
@@ -3712,7 +3719,7 @@ ag testimonial style end
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: #FFFFFF;
+  color: #3B3B3B;
   position: absolute;
   top: 18px;
   right: 18px;
@@ -4426,7 +4433,7 @@ edu success style end
 }
 
 .edu-testimonial-card .testi-card-header .reviewer-rating li i {
-  color: #FFFFFF;
+  color: #3B3B3B;
   font-size: 18px;
 }
 
@@ -4449,20 +4456,20 @@ edu success style end
   font-weight: 700;
   font-size: 24.2254px;
   letter-spacing: 0.242254px;
-  color: #FFFFFF;
+  color: #3B3B3B;
 }
 
 .edu-testimonial-card .testi-card-header .reviwer-info .reviewer-self span {
   font-family: "Rubik", sans-serif;
   font-size: 19.3803px;
-  color: #FFFFFF;
+  color: #3B3B3B;
 }
 
 .edu-testimonial-card .testi-card-body p {
   font-family: "Rubik", sans-serif;
   font-size: 24px;
   line-height: 48px;
-  color: #FFFFFF;
+  color: #3B3B3B;
   padding-top: 22px;
 }
 
@@ -4742,7 +4749,7 @@ edu footer style end
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #3B3B3B;
   padding: 19px 31px;
   -webkit-transition: all .25s ease;
   transition: all .25s ease;
@@ -4991,7 +4998,7 @@ tri explore bar end
   font-weight: 600;
   font-size: 30px;
   text-align: right;
-  color: #FFFFFF;
+  color: #3B3B3B;
   position: absolute;
   top: 36px;
   right: 40px;
@@ -5370,13 +5377,13 @@ Agency Menu Css
   font-style: normal;
   font-size: 24px;
   line-height: 32px;
-  color: #FFFFFF;
+  color: #3B3B3B;
   margin: 17px 0 30px;
 }
 
 .latest-work-img-wrap .latest-work-hover-content a {
   font-weight: 700;
-  color: #FFFFFF;
+  color: #3B3B3B;
 }
 
 .latest-work-img-wrap .latest-work-hover-content a i {
@@ -6084,7 +6091,7 @@ Agency Menu Css
 }
 
 .cart-wrap .single-cart .keywords-tag ul li:hover {
-  color: #FFFFFF;
+  color: #3B3B3B;
   background: #FF7342;
 }
 

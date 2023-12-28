@@ -14,7 +14,7 @@ return(
 
 <div className="hrrd-hero-btn-container">   
 <div className="hrrd-hero-btn-wrap">
-    <Link href="/"><a className="common-btn btn-hrrd-1">{HOMEHEADER.ActionBtnText1}</a></Link>
+    <Link href="/"><a className="common-btn btn-hrrd-2">{HOMEHEADER.ActionBtnText1}</a></Link>
 </div>
 
 <div className="hrrd-hero-btn-wrap">

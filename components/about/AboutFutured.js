@@ -17,30 +17,26 @@ return(
   <FuturedItem
    icon="/assets/images/icon/featured-icon-1.png"
    title="Secure and Immutable Credentials"
-   desc="Ensure the integrity of your digital credentials with our blockchain-powered platform.
-  Leverage the security and immutability of blockchain technology to safeguard against tampering and unauthorized alterations,
-  providing a trusted and reliable source of information."
+   desc="Secure digital credentials with our blockchain platform for tamper-proof integrity. Leverage its security for trust and reliability, 
+   guarding against unauthorized alterations."
   />
 
   <FuturedItem
    icon="/assets/images/icon/featured-icon-2.png"
    title="Streamlined Issuance and Verification"
-   desc="Experience efficiency in credential management. Our platform simplifies the issuance process, allowing organizations to effortlessly create and distribute digital documents. 
-   Recipients can then verify their credentials with ease, reducing administrative overhead and enhancing overall workflow productivity."
+   desc="Streamline credential management, simplifying issuance and verification for organizations. Reduce administrative overhead and boost workflow productivity"
   />
 
  <FuturedItem
    icon="/assets/images/icon/featured-icon-3.png"
    title="Enhanced Trust and Transparency"
-   desc="Build trust through transparency. The blockchain ledger ensures a transparent and auditable trail of credential issuance and verification, instilling confidence in both issuers and recipients.
-  Trust becomes an inherent feature of your credentialing process."
+   desc="Instill trust with blockchain transparency in credentialing. Ensure a clear, auditable trail for issuance and verification, making trust inherent in your process."
   />
 
   <FuturedItem
    icon="/assets/images/icon/featured-icon-4.png"
    title="Global Accessibility"
-   desc="Empower users with universal access to their credentials. Our platform transcends geographical boundaries, enabling individuals to access and present their digital documents anytime, anywhere. 
-   Facilitate seamless interactions across borders and ensure the widespread recognition of achievements."
+   desc="Enable universal access to credentials; our platform transcends boundaries for digital document retrieval anywhere. Ensure seamless cross-border interactions, fostering widespread recognition of achievements."
   />
 
   
