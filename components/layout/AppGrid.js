@@ -12,37 +12,20 @@ return(
         </div>
     </div>
 </div>
-<div className="row row-cols-1 row-cols-xl-5 row-cols-lg-5 row-cols-md-2  row-cols-sm-2 mt-50">
+<div className="works">
     <AppsList
-     icon="assets/images/client-logo/app-2.png"
+     icon="assets/images/client-logo/step-1.png"
+     steptext="/assets/images/client-logo/steptext-1.png"
     />
     <AppsList
-     icon="assets/images/client-logo/app-2.png"
+     icon="assets/images/client-logo/step-2.png"
+     steptext="/assets/images/client-logo/steptext-2.png"
     />
     <AppsList
-     icon="assets/images/client-logo/app-2.png"
+     icon="assets/images/client-logo/step-3.png"
+     steptext="/assets/images/client-logo/steptext-3.png"
     />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
-    <AppsList
-     icon="assets/images/client-logo/app-2.png"
-    />
+
 </div>
 </div>
 <img className="shape hrrd-app-shape" src="/assets/images/shape/hrrd-app.png" alt=""/>

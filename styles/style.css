@@ -178,6 +178,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .pt-100 {
   padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .pt-50 {
@@ -2365,6 +2366,40 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   color: #5A7184;
   margin-top: 6px;
   margin-bottom: 24px;
+}
+
+.works{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.works-text {
+  width: 356px;
+  height: 40px;
+  position: absolute;
+  top: 488px;
+  border-radius: 12.7032px;
+  margin-left: 80px;
+}
+
+.works-image-container {
+  height: 352px;
+  width: 358px;
+  background: #ffffff;
+  align-items: center;
+  padding: 24px;
+  border-radius: 12.7032px;
+}
+
+.works-image {
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 12.7032px;
 }
 
 @-webkit-keyframes up-dn-cart-testimonial {

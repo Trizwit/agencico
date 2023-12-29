@@ -2,9 +2,14 @@
 const AppsList=(props)=>{
 return(
     <>
-    <div className="col wow animate fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
-        <div className="apps-box">
-            <img src={props.icon} alt=""/>
+    <div>
+        <div>
+            <div className="works-image-container">
+            <img className="works-image" src={props.icon} alt=""/>
+            </div>
+            <div className="works-text">
+               <img src={props.steptext} alt="" />
+            </div>
         </div>
     </div>
     </>
