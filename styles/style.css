@@ -282,7 +282,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   border: 2px solid #0075FF;
   background-color: transparent;
   color: #0075FF;
-  border-width: 2px;
+  border-width: 1px;
   border-radius: 4px;
   padding: 15px 32px;
   text-align: center;
@@ -1721,7 +1721,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   display: inline-block;
   padding: 25px 30px;
   position: absolute;
-  left: -30px;
+  left: 10px;
   top: -10px;
   -webkit-animation: up-dn-cart-time 2s alternate linear infinite;
           animation: up-dn-cart-time 2s alternate linear infinite;
