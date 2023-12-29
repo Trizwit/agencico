@@ -2,7 +2,7 @@
 const HomeConstantTwo={
   "Title":"<span>Why</span> Choose Us",
   "CoverImage":"/assets/images/shape/collaborate-hrrd.png",
-  "desc":"Continually administrate process-centric human capital rather than bleeding-edge methodologies. Distinctively supply accurate methods of empowerment before.",
+  "desc":"Revolutionize digital credentialing with our blockchain-powered platform. Redefining excellence, we provide a secure, transparent environment for creating, managing, and validating digital credentials. Step into the future of verification with us – setting a higher standard in credentialing evolution.",
   "Fetured1":"Cutting-Edge Blockchain Technology",
   "Fetured2":"User-Friendly Interface",
   "Fetured3":"Dedicated Support and Training",
