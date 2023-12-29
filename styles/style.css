@@ -1737,6 +1737,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   position: relative;
   text-align: center;
   margin: 24px 0px 24px;
+  
 }
 
 .hrrd-hero-img-wrap .hrrd-hero-post .hrrd-hero-post-shape i {
@@ -1802,20 +1803,20 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .like-cart.hero-like-cart {
-  padding: 24px;
-  border-radius: 8.2142px;
+  height: 160px;
+  padding: 0px;
+  border-radius: 1.2142px;
   -webkit-animation: up-dn-cart-like 2s alternate linear infinite;
           animation: up-dn-cart-like 2s alternate linear infinite;
-  top: 90px;
+  top: 72px;
   right: 0px;
   bottom: unset;
   left: auto;
 }
 
-.like-cart.hero-like-cart .like-cart-box .like-cart-icon i {
+/*.like-cart.hero-like-cart .like-cart-box .like-cart-icon i {
   height: 49px;
   width: 49px;
-  font-size: 14px;
 }
 
 .like-cart.hero-like-cart .like-cart-box .like-cart-content {
@@ -1829,7 +1830,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .like-cart.hero-like-cart .like-cart-box .like-cart-content h6 {
   font-size: 12.9244px;
   margin-top: 6px;
-}
+}*/
 
 .hrrd-hero {
   background: linear-gradient(283deg, rgba(0, 255, 236, 0.28) 51.32%, #FFF 91.75%);
