@@ -1585,10 +1585,10 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
           justify-content: center;
   height: 40px;
   width: 40px;
-  background: rgba(24, 59, 86, 0.1);
+  background: #e0ffff;
   border-radius: 50%;
   font-size: 16px;
-  color: rgba(24, 59, 86, 0.6);
+  color: #01ffff;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -1617,7 +1617,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .single-widget .footer-link ul li a:hover, .single-widget .contact-info ul li a:hover {
-  color: #FF8345;
+  color: #00B6EC;
 }
 
 .single-widget .footer-link ul li:last-child, .single-widget .contact-info ul li:last-child {
@@ -1804,9 +1804,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .like-cart.hero-like-cart {
-  width: 160px;
+  width: 146px;
   height: 180px;
-  padding: 0px;
   border-radius: 1.2142px;
   -webkit-animation: up-dn-cart-like 2s alternate linear infinite;
           animation: up-dn-cart-like 2s alternate linear infinite;
@@ -2696,16 +2695,18 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .hrrd-footer-area .single-widget .contact-info ul li {
   color: #3B3B3B;
+  
 }
 
 .hrrd-footer-area .single-widget .footer-social ul li i {
-  background: rgba(255, 115, 66, 0.1);
-  color: rgba(255, 115, 66, 0.6);
+  background: rgba(1, 255, 255, 0.2);
+  color: rgba(0, 182, 236, 0.6);
 }
 
 .hrrd-footer-area .single-widget .footer-social ul li i:hover {
-  background: rgba(255, 115, 66, 0.4);
-  color: rgba(255, 115, 66, 0.9);
+  background: rgba(1, 255, 255, 0.4);
+  color: rgba(0, 182, 236, 0.9);
+  
 }
 
 .hrrd-footer-shape {

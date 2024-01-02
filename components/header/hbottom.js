@@ -23,14 +23,6 @@ return(
 
 </div> 
 
-    <div className="hrrd-hero-client-logo">
-        <ul>
-            <li><Image src={HOMEHEADER.Logo1} width="90" height="22"/></li>
-            <li><Image src={HOMEHEADER.Logo2} width="90" height="22"/></li>
-            <li><Image src={HOMEHEADER.Logo3} width="90" height="22"/></li>
-            <li><Image src={HOMEHEADER.Logo4} width="90" height="22"/></li>
-        </ul>
-    </div>
 </div>
 </div>
 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">

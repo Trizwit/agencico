@@ -50,19 +50,19 @@ const [AllPricing,setAllPricing] = useState([
    },
    {
 	name:"Business Plan",
-	permonth:"$139",
-	peryear:"$0.25/certificate",
+	permonth:"Custom Pricing",
+	peryear:"Custom Pricing",
 	features: [
 		"1000  Certificates",
 		"5 batches",
-		"Custom plan",
+		"Exclusive Custom plan",
 		"Customization and design support",
 		"Image gallery access"
 	],
 	yearfeatures: [
 		"10000 certificates",
 		"50 Batch",
-		"Custom plan",
+		"Exclusive Custom plan",
 		"Customization and design support",
 		"Image gallery access"
 	],
