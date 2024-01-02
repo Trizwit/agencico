@@ -12,12 +12,22 @@ return(
         }
     </div>
     <div className="price-list">
+      {props.priceMonthly?
         <ul>
-            <li><i className="bi bi-check-lg"></i>Access to editing all blocks</li>
-            <li><i className="bi bi-check-lg"></i>Editing blocks together</li>
-            <li><i className="bi bi-check-lg"></i>Access to all premium icons</li>
-            <li><i className="bi bi-check-lg"></i>A dedicated domain</li>
+            <li><i className="bi bi-check-lg"></i>{props.features[0]}</li>
+            <li><i className="bi bi-check-lg"></i>{props.features[1]}</li>
+            <li><i className="bi bi-check-lg"></i>{props.features[2]}</li>
+            <li><i className="bi bi-check-lg"></i>{props.features[3]}</li>
+            <li><i className="bi bi-check-lg"></i>{props.features[4]}</li>
+        </ul>:
+        <ul>
+        <li><i className="bi bi-check-lg"></i>{props.yearfeatures[0]}</li>
+        <li><i className="bi bi-check-lg"></i>{props.yearfeatures[1]}</li>
+        <li><i className="bi bi-check-lg"></i>{props.yearfeatures[2]}</li>
+        <li><i className="bi bi-check-lg"></i>{props.yearfeatures[3]}</li>
+        <li><i className="bi bi-check-lg"></i>{props.yearfeatures[4]}</li>
         </ul>
+      }
     </div>
     <div className="pricing-btn-wrap">
         <a className={`pricing-btn ${props.premium?'style-2':''}`}>Try for Free</a>

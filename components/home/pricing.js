@@ -6,28 +6,44 @@ const HomePricing=()=>{
 const [Monthly,setMonthly] = useState(false)
 const [AllPricing,setAllPricing] = useState([
 	{
-	name:"Basic Plan",
-	permonth:"$9",
-	peryear:"$39",
+	name:"Starter Plan",
+	permonth:"$0",
+	peryear:"$0",
 	features: [
-		"Access to editing all blocks",
-		"Editing blocks together",
-		"Access to all premium icons",
-		"A dedicated domain"
+		"10 certificates",
+		"1 Batch",
+		"No customization",
+		"1 brand image",
+		"No design support"
+	],
+	yearfeatures: [
+		"10 certificates",
+		"1 Batch",
+		"No customization",
+		"1 brand image",
+		"No design support"
 	],
 	monthly: true,
 	premium: false,
 	animation: "fadeInLeft"
    },
    {
-	name:"Premium Plan",
-	permonth:"$99",
-	peryear:"$199",
+	name:"Pro Plan",
+	permonth:"$45",
+	peryear:"$449",
 	features: [
-		"Access to editing all blocks",
-		"Editing blocks together",
-		"Access to all premium icons",
-		"A dedicated domain"
+		"150 certificates",
+		"2 batches",
+		"Limited customization",
+		"Image gallery access",
+		"Limited design support"
+	],
+	yearfeatures: [
+		"1500 certificates",
+		"20 Batch",
+		"Limited customization",
+		"Image gallery access",
+		"Limited design support"
 	],
 	monthly: true,
 	premium: true
@@ -35,12 +51,20 @@ const [AllPricing,setAllPricing] = useState([
    {
 	name:"Business Plan",
 	permonth:"$139",
-	peryear:"$299",
+	peryear:"$0.25/certificate",
 	features: [
-		"Access to editing all blocks",
-		"Editing blocks together",
-		"Access to all premium icons",
-		"A dedicated domain"
+		"1000  Certificates",
+		"5 batches",
+		"Custom plan",
+		"Customization and design support",
+		"Image gallery access"
+	],
+	yearfeatures: [
+		"10000 certificates",
+		"50 Batch",
+		"Custom plan",
+		"Customization and design support",
+		"Image gallery access"
 	],
 	monthly: true,
 	premium: false,
@@ -84,6 +108,7 @@ return(
 			   permonth={list.permonth}
 			   peryear={list.peryear}
 			   features={list.features}
+			   yearfeatures={list.yearfeatures}
 			   premium={list.premium}
 			   priceMonthly={Monthly}
 			   animation={list.animation}

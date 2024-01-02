@@ -2612,6 +2612,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .price-content-box .price-top-content {
   position: relative;
   padding-bottom: 9px;
+  width: 440px;
 }
 
 .price-content-box .price-top-content::before {
