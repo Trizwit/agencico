@@ -29,9 +29,7 @@ return(
         </ul>
       }
     </div>
-    <div className="pricing-btn-wrap">
-        <a className={`pricing-btn ${props.premium?'style-2':''}`}>Try for Free</a>
-    </div>
+   
 </div>
 </div>
 </>

@@ -1929,7 +1929,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .everything-info ul li {
   height: 70px;
-  background: #ffffff;
+  background: #e0ffff;
   border-radius: 4px;
   margin-bottom: 16px;
   display: -webkit-box;
@@ -1981,11 +1981,11 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .income-cart {
-  background: #FFFFFF;
+  width: 280px;
+  height: 180px;
   -webkit-box-shadow: 0px 29.7349px 68.2154px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 29.7349px 68.2154px rgba(0, 0, 0, 0.05);
   border-radius: 20.0099px;
-  padding: 40px;
   display: inline-block;
   position: absolute;
   top: 0;
@@ -1994,172 +1994,34 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
           animation: up-dn-cart-income 3s linear infinite;
 }
 
-.income-cart p {
-  font-family: "Circular Std regular";
-  font-style: normal;
-  font-size: 14px;
-}
-
-.income-cart .income-price-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 12px;
-  margin-bottom: 19px;
-}
-
-.income-cart .income-price-wrap .income-main-price h2 {
-  font-family: "Circular Std black";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  color: #333333;
-  margin-right: 35px;
-}
-
-.income-cart .income-price-wrap .income-percent span {
-  font-family: "Circular Std regular";
-  font-style: normal;
-  font-size: 12px;
-  color: #1ECAAB;
-}
-
-.income-cart .income-price-wrap .income-percent span i {
-  font-size: 10px;
-  margin-right: 5px;
-}
-
 .like-cart {
-  background: #FFFFFF;
+  width: 272px;
+  height: 160px;
   -webkit-box-shadow: 0px 26.6471px 61.1317px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 26.6471px 61.1317px rgba(0, 0, 0, 0.05);
   border-radius: 17.932px;
   display: inline-block;
-  padding: 53px;
   position: absolute;
-  bottom: 41%;
+  padding: 1px;
+  bottom: 78%;
   left: 0;
   -webkit-animation: up-dn-cart-like 2s alternate linear infinite;
           animation: up-dn-cart-like 2s alternate linear infinite;
 }
 
-.like-cart .like-cart-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.like-cart .like-cart-box .like-cart-icon i {
-  background: rgba(20, 102, 217, 0.1);
-  mix-blend-mode: normal;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #1565D8;
-  font-size: 31px;
-  border-radius: 50%;
-  height: 107.59px;
-  width: 107.59px;
-}
-
-.like-cart .like-cart-box .like-cart-content {
-  padding-left: 33px;
-}
-
-.like-cart .like-cart-box .like-cart-content h4 {
-  font-family: "Circular Std black";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 37.6195px;
-  letter-spacing: 0.313496px;
-  color: #333333;
-}
-
-.like-cart .like-cart-box .like-cart-content h6 {
-  font-family: "Circular Std regular";
-  font-style: normal;
-  font-size: 28.2146px;
-  color: #5A7184;
-  margin-top: 19px;
-}
 
 .time-cart {
-  background: #FFFFFF;
+  width: 280px;
+  height: 200px;
   -webkit-box-shadow: 0px 21.1129px 50px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 21.1129px 50px rgba(0, 0, 0, 0.1);
   border-radius: 14.9032px;
-  padding: 30px;
   display: inline-block;
   position: absolute;
   bottom: 0;
   right: 0;
   -webkit-animation: up-dn-cart-time 2.5s alternate linear infinite;
           animation: up-dn-cart-time 2.5s alternate linear infinite;
-}
-
-.time-cart .time-cart-img-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.time-cart .time-cart-img-list img {
-  margin-right: 15px;
-}
-
-.time-cart .time-cart-img-list img:last-child {
-  margin-right: 0;
-}
-
-.time-cart .time-cart-content h2 {
-  font-family: "Circular Std black";
-  font-style: normal;
-  font-size: 24.8387px;
-  letter-spacing: 0.248387px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.time-cart .time-cart-content p {
-  font-family: "Circular Std regular";
-  font-style: normal;
-  font-size: 17.3871px;
-  color: #5A7184;
-  margin-bottom: 18px;
-}
-
-.time-cart .time-cart-btn-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.time-cart .time-cart-btn-wrap .time-cart-btn {
-  background: #6A99FF;
-  border-radius: 9.93548px;
-  font-family: "Circular Std medium";
-  font-style: normal;
-  font-size: 17.3871px;
-  color: #3B3B3B;
-  padding: 15px 24px;
-}
-
-.time-cart .time-cart-btn-wrap .time-cart-btn.time-cart-btn-2 {
-  background: rgba(106, 153, 255, 0.1);
-  color: #6A99FF;
-  margin-left: 19px;
 }
 
 .everything-area .everything-left {
