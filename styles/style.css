@@ -243,23 +243,23 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .common-btn.btn-style-1 {
-  background: #FF8345;
+  background: #00B6EC;
 }
 
 .common-btn.btn-style-1::before {
-  background: #7BC678;
+  background: #FFFFFF;
 }
 
 .common-btn.btn-style-2 {
-  background: #7BC678;
+  background: #FFFFFF;
 }
 
 .common-btn.btn-style-2::before {
-  background: #FF8345;
+  background: #00B6EC;
 }
 
 .common-btn.btn-hrrd-2 {
-  background: #0075FF;
+  background: #00b6ec;
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
   border-radius: 4px;
@@ -275,13 +275,13 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .common-btn.btn-hrrd-2::before {
-  background: #0075FF;
+  background: #00b6ec;
 }
 
 .common-btn.btn-hrrd-1 {
-  border: 2px solid #0075FF;
+  border: 2px solid #00b6ec;
   background-color: transparent;
-  color: #0075FF;
+  color: #00b6ec;
   border-width: 1px;
   border-radius: 4px;
   padding: 15px 32px;
@@ -294,12 +294,12 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .common-btn.btn-hrrd-1::before {
-  background: #0075FF;
+  background: #00b6ec;
 }
 
 .common-btn.btn-tripp-1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#FE5B3E), to(#FE7B49));
-  background: linear-gradient(180deg, #FE5B3E 0%, #FE7B49 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00B6EC), to(#01ffff));
+  background: linear-gradient(180deg, #00B6EC 0%, #01ffff 100%);
   border-radius: 15px;
   font-weight: 700;
 }
@@ -384,8 +384,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   left: 0;
   height: 50px;
   width: 76%;
-  border: 0.5px solid #FF7342;
-  background: #FFE3D9;
+  border: 0.5px solid #01ffff;
+  background: #e0ffff;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -762,7 +762,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .main-nav > ul > li:hover > a {
-  color: #0075FF;
+  color: #00b6ec;
 }
 
 .main-nav > ul > li:hover > a:after {
@@ -819,7 +819,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .main-nav ul li .sub-menu > li a:hover {
-  color: #0075FF;
+  color: #00b6ec;
 }
 
 .main-nav .fl {
@@ -1645,8 +1645,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-menu .main-nav > ul > li:hover > a {
-  color: #0075FF;
-  border-bottom: 1px solid #0075FF;
+  color: #00b6ec;
+  border-bottom: 1px solid #00b6ec;
 }
 
 .hrrd-menu .main-nav > ul > li > a {
@@ -1655,8 +1655,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-menu .main-nav > ul > li > a.active {
-  color: #0075FF;
-  border-bottom: 1px solid #0075FF;
+  color: #00b6ec;
+  border-bottom: 1px solid #00b6ec;
 }
 
 .hrrd-menu .main-nav > ul > li.has-child-menu:after {
@@ -1960,7 +1960,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   content: "";
   width: 8px;
   height: 8px;
-  background: #0075FF;
+  background: #00b6ec;
   top: 50%;
   left: 31px;
   -webkit-transform: translateY(-50%);
@@ -2286,7 +2286,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .collaborate-info .collaborate-info-list p i {
-  color: #0075FF;
+  color: #00b6ec;
   background: rgba(65, 65, 65, 0.2);
   mix-blend-mode: normal;
   display: -webkit-inline-box;
@@ -2521,7 +2521,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #FF7342;
+  background-color: #00B6EC;
   -webkit-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
   -webkit-transition: 0.6s ease transform, 0.6s -webkit-box-shadow;
@@ -2596,7 +2596,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .price-content-box:hover .price-top-content h2 {
-  color: #ffc233;
+  color: #42dede;
 }
 
 .price-content-box.design-2 {
@@ -2606,7 +2606,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .price-content-box.design-2:hover .price-top-content h2 {
-  color: #ff4f0f;
+  color: #027ca1;
 }
 
 .price-content-box .price-top-content {
@@ -2672,8 +2672,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .price-content-box .price-list ul li i {
   width: 26px;
   height: 26px;
-  background: rgba(255, 115, 66, 0.1);
-  color: #FF7342;
+  background: rgba(1, 255, 255, 0.1);
+  color: #00B6EC;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2689,7 +2689,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .price-content-box .pricing-btn-wrap .pricing-btn {
-  background: #FFD167;
+  background: #01ffff;
   border-radius: 4px;
   font-style: normal;
   font-weight: bold;
@@ -2703,15 +2703,15 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .price-content-box .pricing-btn-wrap .pricing-btn:hover {
-  background: #ffc233;
+  background: #9af9f9;
 }
 
 .price-content-box .pricing-btn-wrap .pricing-btn.style-2 {
-  background: #FF7342;
+  background: #00B6EC;
 }
 
 .price-content-box .pricing-btn-wrap .pricing-btn.style-2:hover {
-  background: #ff4f0f;
+  background: #027ca1;
 }
 
 .text1 {
