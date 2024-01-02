@@ -1804,7 +1804,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .like-cart.hero-like-cart {
-  height: 160px;
+  width: 160px;
+  height: 180px;
   padding: 0px;
   border-radius: 1.2142px;
   -webkit-animation: up-dn-cart-like 2s alternate linear infinite;
