@@ -21,7 +21,6 @@ return(
                         <li><Link href={FooterConstant.GoogleLink}><a><i className="bi bi-google"></i></a></Link></li>
                         <li><Link href={FooterConstant.LinkedinLink}><a><i className="bi bi-linkedin"></i></a></Link></li>
                         <li><Link href={FooterConstant.TwitterLink}><a><i className="bi bi-twitter"></i></a></Link></li>
-                        <li><Link href={FooterConstant.InstagramLink}><a><i className="bi bi-instagram"></i></a></Link></li>
                     </ul>
                 </div>
             </div>

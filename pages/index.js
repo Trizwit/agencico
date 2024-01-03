@@ -7,7 +7,7 @@ import HomePricing from "../components/home/pricing";
 import HomeNewsLater from "../components/home/NewsLater";
 import LayoutAppGrid from "../components/layout/AppGrid";
 import Footer from "../components/layout/footer"
-import HomeDuelSlider from "../components/home/DuelSlider";
+/*import HomeDuelSlider from "../components/home/DuelSlider";*/
 
 export default function Home() {
   return (
@@ -21,7 +21,6 @@ export default function Home() {
       <HomeDetailTwo />
       <LayoutAppGrid />
       <HomePricing />
-      <HomeDuelSlider />
       <HomeNewsLater />
       <Footer />
     </>

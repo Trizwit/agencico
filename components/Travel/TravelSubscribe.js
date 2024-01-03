@@ -28,7 +28,6 @@ return(
                     <ul className="d-flex footer-social-links">
                         <li><Link href="/"><a><i className="bi bi-google"></i></a></Link></li>
                         <li><Link href="/"><a><i className="bi bi-twitter"></i></a></Link></li>
-                        <li><Link href="/"><a><i className="bi bi-instagram"></i></a></Link></li>
                         <li><Link href="/"><a><i className="bi bi-linkedin"></i></a></Link></li>
                     </ul>
                 </div>
