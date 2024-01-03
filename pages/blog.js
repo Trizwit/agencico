@@ -1,5 +1,5 @@
 import Link from "next/link"
-import BreadCrumb from "../components/ header/breadcrumb"
+import BreadCrumb from "../components/header/breadcrumb"
 import Blogs from "../components/blog/Blogs"
 import RecentComments from "../components/blog/RecentComments"
 import RecentPost from "../components/blog/RecentPosts"

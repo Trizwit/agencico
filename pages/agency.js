@@ -1,4 +1,4 @@
-import AgencyBottom from "../components/ header/agencyBottom"
+import AgencyBottom from "../components/header/agencyBottom"
 import AgencyBlog from "../components/agency/agencyBlog"
 import AgencyCircleSlider from "../components/agency/CircleSlider"
 import AgencyClientLogo from "../components/agency/ClientLogo"

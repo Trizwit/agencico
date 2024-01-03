@@ -1,5 +1,5 @@
 import Header from "../components/layout/header"
-import BreadCrumb from "../components/ header/breadcrumb"
+import BreadCrumb from "../components/header/breadcrumb"
 import RecentPost from "../components/blog/RecentPosts"
 import RecentComments from "../components/blog/RecentComments"
 import { useState } from "react"
