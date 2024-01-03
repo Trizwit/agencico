@@ -364,13 +364,18 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   
 }
 
+.testimonial-title {
+  font-size: 12px;
+}
+
 .hrdd-section-title h1 {
   font-family: "Circular Std black";
   font-style: normal;
-  font-size: 32px;
+  font-size: 48px;
   line-height: 58px;
   color: #3B3B3B;
   display: inline-block;
+  margin-top: 40px;
 }
 
 .hrdd-section-title h1 span {
@@ -2234,6 +2239,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   display: flex;
   align-content: center;
   justify-content: space-between;
+  margin-top: 40px;
 }
 
 .works-text {
@@ -2647,8 +2653,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
   border-radius: 10px;
-  height: 320px;
-  padding: 60px 100px;
+  height: 340px;
+  padding: 24px 100px;
 
 }
 
