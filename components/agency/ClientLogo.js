@@ -14,13 +14,13 @@ return(
 </div>
 <div className="ag-client-logo-row">
     <ClientLogoItem
-    img="/assets/images/agency/icons/logo-1.png"
+    img="/assets/images/agency/logo-1.png"
     />
     <ClientLogoItem
-    img="/assets/images/agency/icons/logo-2.png"
+    img="/assets/images/agency/logo-2.png"
     />
     <ClientLogoItem
-    img="/assets/images/agency/icons/logo-3.png"
+    img="/assets/images/agency/logo-3.png"
     />
 </div>
 </div>
