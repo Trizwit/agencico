@@ -8,7 +8,7 @@ return(
 <div className="row justify-content-center">
     <div className="col-lg-4">
         <h2 className="ag-section-title">
-            Read Our Blog
+        Working with best companies in Web3
         </h2>
     </div>
 </div>
@@ -16,17 +16,20 @@ return(
     
     <AgencyBlogItem
      img="/assets/images/agency/blog/blog-c2.png"
-     title="How great Content helps drive success in Marketplace"
+     title="24+"
+     subtitle= "Projects"
     />
 
     <AgencyBlogItem
      img="/assets/images/agency/blog/blog-c2.png"
-     title="How great Content helps drive success in Marketplace"
+     title="7+"
+     subtitle="Partner Companies"
     />
 
     <AgencyBlogItem
      img="/assets/images/agency/blog/blog-c2.png"
-     title="How great Content helps drive success in Marketplace"
+     title="150+"
+     subtitle="Smart Contracts On-Chain"
     />
 
 </div>

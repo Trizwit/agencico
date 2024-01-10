@@ -3427,6 +3427,7 @@ ag service style end
 
 .ag-blog-card .blog-disc .blog-meta {
   margin-top: 25px;
+  
 }
 
 .ag-blog-card .blog-disc .blog-meta a {
@@ -3435,18 +3436,22 @@ ag service style end
   font-size: 18px;
   color: #5A7184;
   display: inline-block;
+ 
 }
 
 .ag-blog-card .blog-disc .blog-title {
   font-family: "Circular Std black";
-  font-size: 24px;
+  font-size: 60px;
   line-height: 34px;
   color: #183B56;
   padding-top: 10px;
+  text-align: center;
+  
 }
 
 .ag-blog-card .blog-disc .blog-btn {
   margin-top: 20px;
+  text-align: center;
 }
 
 .ag-blog-card .blog-disc .blog-btn a {
@@ -3454,6 +3459,7 @@ ag service style end
   font-family: "Circular Std bold";
   font-size: 16px;
   color: #404C99;
+  
 }
 
 .ag-blog-card .blog-disc .blog-btn a:hover i {

@@ -1,12 +1,12 @@
 import Link from "next/link"
 
-const ClientLogoItem=()=>{
+const ClientLogoItem=(props)=>{
 return(
 <>
 <div className="ag-client-logobox">
     <Link href="/">
     <a>
-        <img src="assets/images/agency/client-logo/aven.png" alt=""/>
+    <img src= {props.img} alt=""/>
     </a>
     </Link>
 </div>

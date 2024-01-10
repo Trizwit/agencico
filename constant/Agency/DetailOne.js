@@ -1,8 +1,8 @@
 
 const AgencyConstantOne = {
-   Title: "We help you to build your Business",
-   subTitle: "Enthusiastically extend extensive customer service before best-of-breed convergence completely.",
-   actionBtn: "Get a Quotes",
+   Title: "WEB 3.0 Development And Consultancy",
+   subTitle: "Blockchain | DeFi | Web3 Gaming | NFTs | DAOs | Tooling",
+   actionBtn: "Our Services",
    reviewLabel: {
        title: "20k+ Customer Review",
        pic: "/assets/images/agency/avater-sm.png"
