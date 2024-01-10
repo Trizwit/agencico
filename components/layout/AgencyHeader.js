@@ -43,7 +43,7 @@ return(
 <div className="row align-items-center">
     <div className="col-xxl-3 col-xl-2 col-lg-2 col-sm-6 col-6">
         <div className="logo text-left">
-            <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="173" height="50px"/></a></Link>
+            <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="120" height="120px"/></a></Link>
         </div>
     </div>
     <div className="col-xxl-6 col-xl-6 col-lg-8 col-sm-6 col-6">

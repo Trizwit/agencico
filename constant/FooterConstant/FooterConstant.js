@@ -6,10 +6,10 @@ const FooterConstant={
     LinkedinLink: "/",
     TwitterLink: "/",
     InstagramLink: "/",
-    copyrightText: "Copyright©chakri.All right reserved",
+    copyrightText: "2022 Trizwit Labs Pvt. Ltd. All right reserved",
     copyrightTwo: "<p>Copyright©<a href='/'>chakri</a>.All right reserved</p>",
     phone: "971 5546 963",
-    email: "example@gmail.com",
-    address: ["Dhaka, Bangladesh"]
+    email: "trizwit@gmail.com",
+    address: ["Kochi, Kerala"]
 }
 export default FooterConstant

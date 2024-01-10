@@ -1541,6 +1541,11 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   z-index: -1;
 }
 
+.footer-logo-width {
+  width: 30%;
+  height: auto;
+}
+
 .single-widget .footer-logo p {
   margin: 13px 0 46px;
 }
