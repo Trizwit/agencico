@@ -68,14 +68,6 @@ return(
         <div className="hrrd-hero-btn-wrap">
             <a className="common-btn btn-hrrd-1" href="services.html">Get 15 Day Trial</a>
         </div>
-            <div className="hrrd-hero-client-logo">
-                <ul>
-                    <li><img src="assets/images/client-logo/hrrd-client-logo-1.png" alt=""/></li>
-                    <li><img src="assets/images/client-logo/hrrd-client-logo-2.png" alt=""/></li>
-                    <li><img src="assets/images/client-logo/hrrd-client-logo-1.png" alt=""/></li>
-                    <li><img src="assets/images/client-logo/hrrd-client-logo-2.png" alt=""/></li>
-                </ul>
-            </div>
         </div>
     </div>
 </div>

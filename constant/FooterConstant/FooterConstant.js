@@ -1,7 +1,6 @@
 
 const FooterConstant={
     Logo: "/assets/images/logo.png",
-    subTitle: "Professionally scale cross functional human capital and extensive technology.",
     GoogleLink: "/",
     LinkedinLink: "/",
     TwitterLink: "/",

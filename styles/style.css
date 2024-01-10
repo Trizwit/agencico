@@ -1639,7 +1639,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .copy-right-area p {
   color: #183B56;
-  margin-top: 22px;
+  width: 380px;
 }
 
 /*================================================
@@ -2653,7 +2653,6 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
   border-radius: 10px;
-  height: 340px;
   padding: 24px 100px;
 
 }
@@ -2682,6 +2681,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-footer-area .single-widget .footer-social ul li i {
+  margin-top: 20px;
   background: rgba(1, 255, 255, 0.2);
   color: rgba(0, 182, 236, 0.6);
 }
