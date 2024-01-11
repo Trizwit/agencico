@@ -43,7 +43,7 @@ return(
 <div className="row align-items-center">
     <div className="col-xxl-3 col-xl-2 col-lg-2 col-sm-6 col-6">
         <div className="logo text-left">
-            <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="180px" height="160px"/></a></Link>
+            <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="160px" height="108px"/></a></Link>
         </div>
     </div>
     <div className="col-xxl-6 col-xl-6 col-lg-8 col-sm-6 col-6">
@@ -69,7 +69,15 @@ return(
                     </ul>
                 </li>
                 <li><Link href="/about"><a>About</a></Link></li>
-                <li><Link href="/Products"><a>Products</a></Link></li>
+                <li className="has-child-menu">
+                    <a>Products</a>
+                    <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
+                    <ul className="sub-menu">
+                        <li><Link href="/blog"><a>Pindown</a></Link></li>
+                        <li><Link href="/blog-detail"><a>BlockIoT</a></Link></li>
+                        <li><Link href="/blog-detail"><a>FASTN UI</a></Link></li>
+                    </ul>
+                </li>
                 <li><Link href="/contact"><a>Contact </a></Link></li>
             </ul>
         </nav>

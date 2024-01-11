@@ -73,7 +73,15 @@ return(
 					</ul>
 				</li>
 				<li><Link href="/about"><a>About</a></Link></li>
-				<li><Link href="/services"><a>Products</a></Link></li>
+				<li className="has-child-menu">
+                    <a>Products</a>
+                    <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
+                    <ul className="sub-menu">
+                        <li><Link href="/blog"><a>Pindown</a></Link></li>
+                        <li><Link href="/blog-detail"><a>BlockIoT</a></Link></li>
+                        <li><Link href="/blog-detail"><a>FASTN UI</a></Link></li>
+                    </ul>
+                </li>
 				<li><Link href="/contact"><a>Contact</a></Link></li>
 			</ul>
 		</nav>
