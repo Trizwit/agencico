@@ -44,7 +44,7 @@ return(
 	<div className="col-xxl-3 col-xl-2 col-lg-2 col-sm-6 col-6">
 		<div className="logo text-left">
 	    <Link href="/">		
-		 <a><Image src={NavConstant.Logo} alt="" width="173" height="50px"/></a>
+		 <a><Image src={NavConstant.Logo} alt="" width="180px" height="160px"/></a>
 		</Link>
 		</div>
 	</div>
@@ -57,7 +57,7 @@ return(
 		<nav className="main-nav" ref={navToggle}>
 			<div className="logo mobile-ham-logo d-lg-none d-block text-left">
 				<Link href="/">
-				<a><Image src={NavConstant.Logo} alt="" width="173" height="50px"/></a>
+				<a><Image src={NavConstant.Logo} alt="" width="120px" height="120px"/></a>
 				</Link>
 			</div>
 			<ul>

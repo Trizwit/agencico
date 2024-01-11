@@ -8,7 +8,7 @@ return(
 <div className="row">
     <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
         <div className="hrdd-section-title text-center wow animate fadeInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
-            <h1><span>Featured</span> We <br/> Provide for You</h1>
+            <h1><span>Mission</span></h1>
         </div>
     </div>
 </div>
@@ -16,32 +16,26 @@ return(
 
   <FuturedItem
    icon="/assets/images/icon/featured-icon-1.png"
-   title="Dashboard"
-   desc="Assertively parallel task synergistic deliverables after high-quality"
+   title="Guidance"
+   desc="To provide expert advice, guidance, and support to clients seeking to integrate Web3 technologies into their operations, products, and services."
   />
 
   <FuturedItem
    icon="/assets/images/icon/featured-icon-2.png"
-   title="Statistics"
-   desc="Assertively parallel task synergistic deliverables after high-quality"
+   title="Innovation"
+   desc="To foster development of innovative and impactful Web3 solutions that address real-world challenges and opportunities."
   />
 
  <FuturedItem
    icon="/assets/images/icon/featured-icon-3.png"
-   title="Easy Access"
-   desc="Assertively parallel task synergistic deliverables after high-quality"
+   title="Growth"
+   desc="To contribute to the growth and evolution of the Web3 ecosystem by collaborating with other stakeholders and sharing knowledge and resources."
   />
 
   <FuturedItem
    icon="/assets/images/icon/featured-icon-4.png"
-   title="Collaboration"
-   desc="Assertively parallel task synergistic deliverables after high-quality"
-  />
-
-  <FuturedItem
-   icon="/assets/images/icon/featured-icon-5.png"
-   title="Total Control"
-   desc="Assertively parallel task synergistic deliverables after high-quality"
+   title="Educate"
+   desc="To educate and raise awareness about the benefits and implications of decentralized technologies and promote their adoption and responsible use."
   />
 
 </div>

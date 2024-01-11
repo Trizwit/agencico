@@ -45,7 +45,7 @@ return(
 <div className="row align-items-center">
     <div className="col-xl-2 col-lg-2 col-sm-6 col-6">
         <div className="logo text-left">
-            <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="173" height="50px"/></a></Link>
+            <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="180px" height="160px"/></a></Link>
         </div>
     </div>
     <div className="col-xl-7 col-lg-7 col-sm-6 col-6">
@@ -56,7 +56,7 @@ return(
         </div>
         <nav className="main-nav" ref={navToggle}>
             <div className="logo mobile-ham-logo d-lg-none d-block text-left">
-                <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="173" height="50px"/></a></Link>
+                <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="120" height="120px"/></a></Link>
             </div>
             <ul>
                 <li className="has-child-menu">

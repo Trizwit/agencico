@@ -1,7 +1,7 @@
 
 const AboutDetail={
     Title: "An <span>Exceptionally</span> unique experience Tailored to you",
-    short_desc:"Continually administrate process-centric human capital rather than bleeding-edge methodologies. Distinctively supply accurate methods of empowerment before",
+    short_desc:"The Trizwit team started off its journey in the year 2021, with the idea of helping out those in the blockchain and web3 space realise their dreams with the best in class technology available. We are committed to build robust and scalable products without compromising on the quality.",
     services:[
         "Organize your data",
         "Always in sync",

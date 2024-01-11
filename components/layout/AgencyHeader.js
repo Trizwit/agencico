@@ -43,7 +43,7 @@ return(
 <div className="row align-items-center">
     <div className="col-xxl-3 col-xl-2 col-lg-2 col-sm-6 col-6">
         <div className="logo text-left">
-            <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="120" height="120px"/></a></Link>
+            <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="180px" height="160px"/></a></Link>
         </div>
     </div>
     <div className="col-xxl-6 col-xl-6 col-lg-8 col-sm-6 col-6">
@@ -54,7 +54,7 @@ return(
         </div>
         <nav className="main-nav" ref={navToggle}> 
             <div className="logo mobile-ham-logo d-lg-none d-block text-left">
-                <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="173" height="50px"/></a></Link>
+                <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="120px" height="120px"/></a></Link>
             </div>
             <ul>
                 <li className="has-child-menu">
@@ -69,26 +69,10 @@ return(
                     </ul>
                 </li>
                 <li><Link href="/about"><a>About</a></Link></li>
-                <li><Link href="/services"><a>Services</a></Link></li>
-                <li className="has-child-menu">
-                    <Link href="/blog"><a>Blog</a></Link>
-                    <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
-                    <ul className="sub-menu">
-                        <li><Link href="/blog"><a>Blog</a></Link></li>
-                        <li><Link href="/blog-detail"><a>Blog Details</a></Link></li>
-                    </ul>
-                </li>
+                <li><Link href="/Products"><a>Products</a></Link></li>
                 <li><Link href="/contact"><a>Contact </a></Link></li>
             </ul>
-            <div className="menu-btn-wrap d-block d-lg-none">
-             <Link href="/"><a className="log-btn">Log In</a></Link>
-            </div>
         </nav>
-    </div>
-    <div className="col-xxl-3 col-xl-4 col-lg-2 d-none d-lg-block">
-        <div className="menu-btn-wrap">
-            <Link href="/"><a className="log-btn">Log In</a></Link>
-        </div>
     </div>
 </div>
 </div>

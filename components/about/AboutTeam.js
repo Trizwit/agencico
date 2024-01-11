@@ -62,32 +62,26 @@ return(
 
       <AboutTeamItem 
        pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
+       name="Able Varghese"
+       position="Co-founder, Growth and Strategy Head"
       />
 
       <AboutTeamItem 
        pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
+       name="AswinRaj K"
+       position="Co-founder, Administration and Finance Head"
       />
 
      <AboutTeamItem 
        pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
+       name="Athul A kumar"
+       position="Co-founder, Head of Operations"
       />
 
      <AboutTeamItem 
        pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
-      />
-
-      <AboutTeamItem 
-       pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
+       name="Binil V Jacob"
+       position="Co-founder, Product and Technology Head"
       />
 
      </Carousel>
