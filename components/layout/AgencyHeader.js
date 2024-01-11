@@ -73,7 +73,7 @@ return(
                     <a>Products</a>
                     <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
                     <ul className="sub-menu">
-                        <li><Link href="/blog"><a>Pindown</a></Link></li>
+                        <li><Link href="https://pindown.app/"><a>Pindown</a></Link></li>
                         <li><Link href="/blog-detail"><a>BlockIoT</a></Link></li>
                         <li><Link href="/blog-detail"><a>FASTN UI</a></Link></li>
                     </ul>
