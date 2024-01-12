@@ -1,4 +1,4 @@
-import JobBottom from "../components/ header/JobBottom"
+import JobBottom from "../components/header/JobBottom"
 import AroundWorld from "../components/Job/AroundWorld"
 import JobClientLogo from "../components/Job/ClientLogos"
 import JobCategories from "../components/Job/JobCategories"
