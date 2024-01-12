@@ -42,7 +42,7 @@ return(
     <div className="col-xxl-3 col-xl-2 col-lg-2 col-sm-6 col-6">
         <div className="logo text-left">
             <Link href="/">
-                <a><Image src={NavConstant.Logo} alt="" width="180px" height="160px"/></a>
+                <a><Image src={NavConstant.Logo} alt="" width="160px" height="108px"/></a>
             </Link>    
         </div>
     </div>
@@ -59,17 +59,7 @@ return(
                 </Link>    
             </div>
             <ul>
-                <li className="has-child-menu">
-                    <Link href="/"><a className="active">Home</a></Link>
-                    <i className="fl flaticon-plus"  onClick={ToggleSubMenu}>+</i>
-                    <ul className="sub-menu">
-                        <li><Link href="/"><a>Sass</a></Link></li>
-                        <li><Link href="/travel"><a>Travel</a></Link></li>
-                        <li><Link href="/education"><a>Education</a></Link></li>
-                        <li><Link href="/job"><a>Job Finding</a></Link></li>
-                        <li><Link href="/agency"><a>Digital Agency</a></Link></li>
-                    </ul>
-                </li>
+                <li><Link href="/agency"><a className="active">Home</a></Link></li>
                 <li><Link href="/about"><a>About</a></Link></li>
                 <li><Link href="/services"><a>Services</a></Link></li>
                 <li className="has-child-menu">

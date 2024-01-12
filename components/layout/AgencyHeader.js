@@ -57,17 +57,7 @@ return(
                 <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="120px" height="120px"/></a></Link>
             </div>
             <ul>
-                <li className="has-child-menu">
-                    <Link href="/"><a className="active">Home</a></Link>
-                    <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
-                    <ul className="sub-menu">
-                        <li><Link href="/"><a>Sass</a></Link></li>
-                        <li><Link href="/travel"><a>Travel</a></Link></li>
-                        <li><Link href="/education"><a>Education</a></Link></li>
-                        <li><Link href="/job"><a>Job Finding</a></Link></li>
-                        <li><Link href="/agency"><a>Digital Agency</a></Link></li>
-                    </ul>
-                </li>
+                <li><Link href="/agency"><a className="active">Home</a></Link></li>
                 <li><Link href="/about"><a>About</a></Link></li>
                 <li className="has-child-menu">
                     <a>Products</a>

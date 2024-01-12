@@ -1,6 +1,6 @@
 
 const AboutDetail={
-    Title: "An <span>Exceptionally</span> unique experience Tailored to you",
+    Title: "<span>Fulfilling</span> Dreams in Technology through Product Development Excellence",
     short_desc:"The Trizwit team started off its journey in the year 2021, with the idea of helping out those in the blockchain and web3 space realise their dreams with the best in class technology available. We are committed to build robust and scalable products without compromising on the quality.",
     services:[
         "Organize your data",
