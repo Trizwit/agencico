@@ -24,7 +24,7 @@ return(
 <div className="row">
 <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
 <div className="blog-post-wrap blog-post-details">
-    <h1><a href="blog-details.html">Design  Studios That Everyone Should Know About?</a></h1>
+    <h1><a href="blog-details.html">Design Studios That Everyone Should Know About?</a></h1>
     <ul>
         <li><i className="bi bi-person-fill"></i> <a href="blog-details.html">by Chris Ames</a></li>
         <li><i className="bi bi-calendar3"></i> <a href="blog-details.html">22 January, 2022</a></li>
