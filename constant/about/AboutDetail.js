@@ -9,7 +9,7 @@ const AboutDetail={
         "Embedded analytics"
     ],
     actionBtn:"Get Started Today",
-    leftImage:"/assets/images/about/excpt-img.png",
+    leftImage:"/assets/images/about/aboutus.png",
     feature:[
         {
             title: "Our Customer",

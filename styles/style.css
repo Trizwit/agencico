@@ -1840,6 +1840,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .featured-box {
   display: -webkit-box;
   display: -ms-flexbox;
+  height: 85%;
   display: flex;
   background: #FFFFFF;
   -webkit-box-shadow: 5px 30px 56.1276px rgba(55, 55, 55, 0.1098);
