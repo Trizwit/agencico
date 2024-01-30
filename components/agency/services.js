@@ -35,14 +35,14 @@ return(
     />
 
     <AgencyServiceItem 
-     bg="bg-v3"
+     bg=""
      img="/assets/images/agency/icons/poc.png"
      name="PoC"
      title="We create a framework and prototype to identify the use cases for the business with minimum viable features."
     />
 
     <AgencyServiceItem 
-     bg="bg-v3"
+     bg="bg-v2"
      img="/assets/images/agency/icons/intgrtn.png"
      name="Integration"
      title="Our Blockchain Consultants help clients identify if the blockchain technology can be integrated into their business operations and environment."
