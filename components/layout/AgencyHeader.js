@@ -64,8 +64,8 @@ return(
                     <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
                     <ul className="sub-menu">
                         <li><Link href="https://pindown.app/"><a>Pindown</a></Link></li>
-                        <li><Link href="/blog-detail"><a>BlockIoT</a></Link></li>
-                        <li><Link href="/blog-detail"><a>FASTN UI</a></Link></li>
+                        <li><Link href="https://blockiot.trizwit.com/"><a>BlockIoT</a></Link></li>
+                        <li><Link href="https://trizui.trizwit.com/"><a>FASTN UI</a></Link></li>
                     </ul>
                 </li>
                 <li><Link href="/contact"><a>Contact </a></Link></li>
