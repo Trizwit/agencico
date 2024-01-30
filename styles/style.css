@@ -268,11 +268,11 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .common-btn.btn-hrrd-2::before {
-  background: #FF7342;
+  background: #6366F1;
 }
 
 .common-btn.btn-hrrd-1 {
-  background: #FF7342;
+  background: #6366F1;
   border-radius: 4px;
 }
 
@@ -366,7 +366,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   left: 0;
   height: 50px;
   width: 76%;
-  border: 0.5px solid #FF7342;
+  border: 0.5px solid #6366F1;
   background: #FFE3D9;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -603,7 +603,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .breadcrumb-area .breadcrumb-text p {
-  color: #FF7342;
+  color: #6366F1;
   font-weight: 500;
   font-size: 18px;
   margin-top: 20px;
@@ -1631,8 +1631,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-menu .main-nav > ul > li:hover > a {
-  color: #FF7342;
-  border-bottom: 1px solid #FF7342;
+  color: #6366F1;
+  border-bottom: 1px solid #6366F1;
 }
 
 .hrrd-menu .main-nav > ul > li > a {
@@ -1641,8 +1641,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-menu .main-nav > ul > li > a.active {
-  color: #FF7342;
-  border-bottom: 1px solid #FF7342;
+  color: #6366F1;
+  border-bottom: 1px solid #6366F1;
 }
 
 .hrrd-menu .main-nav > ul > li.has-child-menu:after {
@@ -1945,7 +1945,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   content: "";
   width: 8px;
   height: 8px;
-  background: #FF7342;
+  background: #6366F1;
   top: 50%;
   left: 31px;
   -webkit-transform: translateY(-50%);
@@ -2271,7 +2271,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .collaborate-info .collaborate-info-list p i {
-  color: #FF7342;
+  color: #6366F1;
   background: rgba(255, 115, 66, 0.2);
   mix-blend-mode: normal;
   display: -webkit-inline-box;
@@ -2432,7 +2432,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .apps-box:hover {
-  background: #FF7342;
+  background: #6366F1;
   -webkit-box-shadow: 10px 20px 50px rgba(81, 75, 75, 0.2);
           box-shadow: 10px 20px 50px rgba(81, 75, 75, 0.2);
   -webkit-transform: translateY(-3px);
@@ -2472,7 +2472,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #FF7342;
+  background-color: #6366F1;
   -webkit-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
   -webkit-transition: 0.6s ease transform, 0.6s -webkit-box-shadow;
@@ -2623,7 +2623,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   width: 26px;
   height: 26px;
   background: rgba(255, 115, 66, 0.1);
-  color: #FF7342;
+  color: #6366F1;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2657,7 +2657,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .price-content-box .pricing-btn-wrap .pricing-btn.style-2 {
-  background: #FF7342;
+  background: #6366F1;
 }
 
 .price-content-box .pricing-btn-wrap .pricing-btn.style-2:hover {
@@ -2717,7 +2717,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .testimonial-hrrd .testimonial-content-slide-wrap .tst:hover {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .hrrd-testimonial-shape {
@@ -5297,14 +5297,14 @@ Agency Menu Css
 
 .work-link ul li.active {
   position: relative;
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .work-link ul li.active::before {
   position: absolute;
   bottom: -6px;
   left: 0;
-  background: #FF7342;
+  background: #6366F1;
   content: "";
   height: 2px;
   width: 100%;
@@ -5399,7 +5399,7 @@ Agency Menu Css
   content: "";
   width: 2px;
   height: 59px;
-  background: #FF7342;
+  background: #6366F1;
 }
 
 .single-about-team:hover .single-about-team-img img {
@@ -5410,7 +5410,7 @@ Agency Menu Css
 }
 
 .single-about-team:hover .single-about-team-content h3 {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .single-about-team .single-about-team-content h3 {
@@ -5452,7 +5452,7 @@ Agency Menu Css
 }
 
 .inner-slide-wrap .owl-dots button.active {
-  background: #FF7342;
+  background: #6366F1;
 }
 
 .inner-slide-wrap .owl-dots button:last-child {
@@ -5482,7 +5482,7 @@ Agency Menu Css
 }
 
 .single-client-testimonial:hover .client-testimonial-info h2 {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .single-client-testimonial .client-testimonial-img img {
@@ -5566,7 +5566,7 @@ Agency Menu Css
 }
 
 .all-services-box:hover .all-services-icon i {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .all-services-box .all-services-icon {
@@ -5613,7 +5613,7 @@ Agency Menu Css
 }
 
 .all-services-box .all-services-content a {
-  color: #FF7342;
+  color: #6366F1;
   font-weight: 600;
   font-size: 18px;
 }
@@ -5662,11 +5662,11 @@ Agency Menu Css
 }
 
 .pricing-plan-wrap:hover .pricing-plan-info .pricing-plan-icon i {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .pricing-plan-wrap:hover .pricing-plan-btn-wrap a {
-  background: #FF7342;
+  background: #6366F1;
   color: #fff;
 }
 
@@ -5779,7 +5779,7 @@ Agency Menu Css
 }
 
 .blog-post-wrap h1 a:hover {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .blog-post-wrap p {
@@ -5812,12 +5812,12 @@ Agency Menu Css
 }
 
 .blog-post-wrap ul li i {
-  color: #FF7342;
+  color: #6366F1;
   margin-right: 5px;
 }
 
 .blog-post-wrap .blog-post-btn {
-  color: #FF7342;
+  color: #6366F1;
   -webkit-transition: .5s;
   transition: .5s;
   display: inline-block;
@@ -5882,13 +5882,13 @@ Agency Menu Css
 }
 
 .pagination-wrap ul li:hover {
-  background: #FF7342;
+  background: #6366F1;
   color: #fff;
 }
 
 .pagination-wrap ul li:first-child, .pagination-wrap ul li:last-child {
   background: none;
-  color: #FF7342;
+  color: #6366F1;
   font-size: 38px;
   width: unset;
   height: unset;
@@ -5922,7 +5922,7 @@ Agency Menu Css
   height: 32px;
   position: absolute;
   content: '';
-  background: #FF7342;
+  background: #6366F1;
   left: -2px;
   -webkit-animation: cart-anm-t-b 4s alternate linear infinite;
           animation: cart-anm-t-b 4s alternate linear infinite;
@@ -5956,7 +5956,7 @@ Agency Menu Css
 
 .cart-wrap .single-cart .cart-form i {
   position: absolute;
-  color: #FF7342;
+  color: #6366F1;
   font-size: 18px;
   right: 18px;
   top: 50%;
@@ -6031,7 +6031,7 @@ Agency Menu Css
 }
 
 .cart-wrap .single-cart .cart-post .cart-post-content h4 a:hover {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .cart-wrap .single-cart .cart-post .cart-post-content p {
@@ -6064,7 +6064,7 @@ Agency Menu Css
 }
 
 .cart-wrap .single-cart .comment-box h4:hover {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .cart-wrap .single-cart .comment-box h4 span {
@@ -6087,7 +6087,7 @@ Agency Menu Css
 
 .cart-wrap .single-cart .keywords-tag ul li:hover {
   color: #FFFFFF;
-  background: #FF7342;
+  background: #6366F1;
 }
 
 .cart-wrap .single-cart .contact-details {
@@ -6135,7 +6135,7 @@ Agency Menu Css
 
 .cart-wrap .single-cart .contact-details .contact-details-info ul li i {
   font-size: 20px;
-  color: #FF7342;
+  color: #6366F1;
   margin-right: 15px;
   -webkit-transition: color .25s ease-in-out;
   transition: color .25s ease-in-out;
@@ -6192,7 +6192,7 @@ Agency Menu Css
   height: 15px;
   width: 15px;
   border-radius: 2px;
-  border: 1px solid #FF7342;
+  border: 1px solid #6366F1;
   border-radius: 4px;
   /* Create the checkmark/indicator (hidden when not checked) */
 }
@@ -6212,7 +6212,7 @@ Agency Menu Css
 }
 
 .shop-check input:checked ~ .checkmark {
-  background-color: #FF7342;
+  background-color: #6366F1;
 }
 
 /* Show the checkmark when checked */
@@ -6375,7 +6375,7 @@ Agency Menu Css
 }
 
 .details-share .details-share-info li {
-  background: #FF7342;
+  background: #6366F1;
   color: #fff;
   height: 24px;
   width: 24px;
@@ -6416,7 +6416,7 @@ Agency Menu Css
 }
 
 .details-share .details-share-like li {
-  color: #FF7342;
+  color: #6366F1;
   font-size: 28px;
   margin-right: 12px;
   -webkit-transition: all .1s ease-in-out;
