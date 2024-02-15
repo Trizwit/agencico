@@ -2,8 +2,7 @@ import Link from "next/link"
 import TripServiceItem from "./Trip/Item"
 
 const TripServices=()=>{
-return(
-<>
+return <>
 <div className="trip-service-area positioning pt-100 pb-76">
 <div className="container">
 <div className="row align-items-end">
@@ -14,7 +13,7 @@ return(
     </div>
     <div className="col-xxl-7 col-xl-6 col-lg-5 col-md-12 col-sm-12 col-12 mobt-24">
     <div className="trip-service-btn text-lg-end text-md-start text-sm-start">
-        <Link href="/"><a>View All Services <i className="bi bi-arrow-right"></i></a></Link>
+        <Link href="/">View All Services<i className="bi bi-arrow-right"></i></Link>
     </div>
     </div>
 </div>
@@ -48,7 +47,6 @@ return(
 </div>
 <h1 className="container-text trip-service-text">Services</h1>
 </div>  
-</>
-)
+</>;
 }
 export default TripServices

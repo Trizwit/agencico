@@ -1,16 +1,14 @@
 import Link from "next/link"
 
 const ClientLogoItem=(props)=>{
-return(
-<>
+return <>
 <div className="ag-client-logobox">
     <Link href="/">
-    <a>
-    <img src= {props.img} alt=""/>
-    </a>
+
+        <img src= {props.img} alt=""/>
+
     </Link>
 </div>
-</>
-)
+</>;
 }
 export default ClientLogoItem

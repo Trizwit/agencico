@@ -3,8 +3,7 @@ import AboutDetail from "../../constant/about/AboutDetail"
 import { v4 as uuidv4 } from "uuid"
 
 const AboutDetailOne=()=>{
-return(
-<>
+return <>
 <div className="exceptionally-area positioning pb-100">
 <div className="container">
 <div className="row justify-content-between align-items-center">
@@ -29,7 +28,7 @@ return(
         </div>
     </div>
     <div className="hrrd-collaborate-btn-wrap wow animate fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-        <Link href="/"><a className="common-btn btn-hrrd-1">{AboutDetail.actionBtn}</a></Link>
+        <Link href="/" className="common-btn btn-hrrd-1">{AboutDetail.actionBtn}</Link>
     </div>
 </div>
 <div className="col-xxl-7 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mobt-50">
@@ -54,7 +53,6 @@ return(
 </div> 
 </div>
 </div>
-</>
-)
+</>;
 }
 export default AboutDetailOne

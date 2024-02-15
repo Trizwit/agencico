@@ -1,8 +1,7 @@
 import Link from "next/link"
 
 const TravelSubsribe=()=>{
-return(
-<>
+return <>
 <div className="tri-footer-style positioning">
 <div className="container">
 <div className="row align-items-end">
@@ -26,10 +25,10 @@ return(
                         <p>Copyright©<a>Tripp</a>.All right reserved</p>
                     </div>
                     <ul className="d-flex footer-social-links">
-                        <li><Link href="/"><a><i className="bi bi-google"></i></a></Link></li>
-                        <li><Link href="/"><a><i className="bi bi-twitter"></i></a></Link></li>
-                        <li><Link href="/"><a><i className="bi bi-instagram"></i></a></Link></li>
-                        <li><Link href="/"><a><i className="bi bi-linkedin"></i></a></Link></li>
+                        <li><Link href="/"><i className="bi bi-google"></i></Link></li>
+                        <li><Link href="/"><i className="bi bi-twitter"></i></Link></li>
+                        <li><Link href="/"><i className="bi bi-instagram"></i></Link></li>
+                        <li><Link href="/"><i className="bi bi-linkedin"></i></Link></li>
                     </ul>
                 </div>
         </div>
@@ -43,7 +42,6 @@ return(
 </div>
 <h1 className="container-text newsletter-text">Newsletter</h1>
 </div>
-</>
-)
+</>;
 }
 export default TravelSubsribe

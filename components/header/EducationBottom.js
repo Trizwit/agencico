@@ -2,8 +2,7 @@ import Link from "next/link"
 import EducationDetailOne from "../../constant/education/DetailOne"
 
 const EducationHeaderBottom=()=>{
-return(
-<>
+return <>
 <div className="edu-hero-style">
 <div className="container">
 <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
@@ -16,7 +15,7 @@ return(
                 {EducationDetailOne.subTitle}
             </p>
             <div className="edu-hero-btn">
-                <Link href=""><a className="edu-btn-fill">{EducationDetailOne.actionBtn}</a></Link>
+                <Link href="" className="edu-btn-fill">{EducationDetailOne.actionBtn}</Link>
             </div>
         </div>
     </div>
@@ -41,7 +40,6 @@ return(
 </div>
 </div>
 </div>
-</>
-)
+</>;
 }
 export default EducationHeaderBottom

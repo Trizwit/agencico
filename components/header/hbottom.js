@@ -3,8 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 const HBottom=()=>{
-return(
-<>
+return <>
 <div className="hrrd-hero positioning d-lg-block d-none d-sm-none">
 <div className="container">
 <div className="row align-items-center justify-content-between">
@@ -12,7 +11,7 @@ return(
 <div className="hrrd-hero-content">
     <h1>{HOMEHEADER.HomeTitle}</h1>
 <div className="hrrd-hero-btn-wrap">
-    <Link href="/"><a className="common-btn btn-hrrd-1">{HOMEHEADER.ActionBtnText}</a></Link>
+    <Link href="/" className="common-btn btn-hrrd-1">{HOMEHEADER.ActionBtnText}</Link>
 </div>
     <div className="hrrd-hero-client-logo">
         <ul>
@@ -32,11 +31,11 @@ return(
             <h4>Post Type</h4>
             <div className="hrrd-hero-post-shape">
                 <img src="assets/images/shape/hrrd-hero-post.png" alt=""/>
-                <Link href="/"><a><i className="bi bi-download"></i></a></Link>
+                <Link href="/"><i className="bi bi-download"></i></Link>
             </div>
             <ul>
-                <li><span></span><Link href="/"><a>Images</a></Link></li>
-                <li><span></span><Link href="/"><a>Videos</a></Link></li>
+                <li><span></span><Link href="/">Images</Link></li>
+                <li><span></span><Link href="/">Videos</Link></li>
             </ul>
         </div>
         <div className="like-cart hero-like-cart">
@@ -89,7 +88,6 @@ return(
 </div>
 <img className="shape hrrd-hero-shape" src="/assets/images/shape/hrrd-hero-shape.png" alt=""/>
 </div>
-</>
-)
+</>;
 }
 export default HBottom

@@ -2,8 +2,7 @@ import Link from "next/link"
 import AgencyConstantOne from "../../constant/Agency/DetailOne"
 
 const AgencyBottom=()=>{
-return(
-<>
+return <>
 <div className="ag-hero-style">
 <div className="container">
 <div className="row justify-content-lg-between justify-content-center">
@@ -16,7 +15,7 @@ return(
                 {AgencyConstantOne.subTitle}
             </p>
             <div className="ag-hero-btn">
-                <Link href="/"><a className="ag-btn-fill">{AgencyConstantOne.actionBtn}</a></Link>
+                <Link href="/" className="ag-btn-fill">{AgencyConstantOne.actionBtn}</Link>
             </div>
         </div>
     </div>
@@ -61,7 +60,6 @@ return(
 <img src="/assets/images/agency/shapes/shape-2.svg" className="shape-two" alt=""/>
 </div>
 </div>
-</>
-)
+</>;
 }
 export default AgencyBottom

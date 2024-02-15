@@ -1,8 +1,7 @@
 import Link from "next/link"
 
 const AroundWorld=()=>{
-return(
-<>
+return <>
 <div className="around-world-area mt-100">
 <div className="container">
 <div className="row align-items-center justify-content-between">
@@ -18,7 +17,7 @@ return(
         <div className="around-world-content wow animate fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
             <p>Intrinsically disintermediation economically sound process improvements after market positioning. Professionally scale cross functional human capital and extensive technology. Authoritatively e-enable stand-alone initiatives </p>
             <div className="around-world-btn-wrap">
-                <Link href="/"><a className="common-btn btn-style-2">Find Your Job</a></Link>
+                <Link href="/" className="common-btn btn-style-2">Find Your Job</Link>
             </div>
         </div>
     </div>
@@ -26,7 +25,6 @@ return(
 </div>
 <img className="shape around-world-shape" src="/assets/images/shape/around-world-shape.png" alt=""/>
 </div>
-</>
-)
+</>;
 }
 export default AroundWorld

@@ -35,15 +35,14 @@ async function ToggleSubMenu(e){
     }catch(err){}
 }    
 
-return(
-<>
+return <>
 <nav ref={navRef}>
 <div className={`header-menu-area agency-menu ${isVisible?'':'sticky'} `}>
 <div className="container">
 <div className="row align-items-center">
     <div className="col-xxl-3 col-xl-2 col-lg-2 col-sm-6 col-6">
         <div className="logo text-left">
-            <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="160px" height="108px"/></a></Link>
+            <Link href="/"><Image src={NavConstant.Logo} alt="" width="160" height="108"/></Link>
         </div>
     </div>
     <div className="col-xxl-6 col-xl-6 col-lg-8 col-sm-6 col-6">
@@ -54,21 +53,21 @@ return(
         </div>
         <nav className="main-nav" ref={navToggle}> 
             <div className="logo mobile-ham-logo d-lg-none d-block text-left">
-                <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="120px" height="120px"/></a></Link>
+                <Link href="/"><Image src={NavConstant.Logo} alt="" width="120" height="120"/></Link>
             </div>
             <ul>
-                <li><Link href="/agency"><a className="active">Home</a></Link></li>
-                <li><Link href="/about"><a>About</a></Link></li>
+                <li><Link href="/agency" className="active">Home</Link></li>
+                <li><Link href="/about">About</Link></li>
                 <li className="has-child-menu">
                     <a>Products</a>
                     <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
                     <ul className="sub-menu">
-                        <li><Link href="https://pindown.app/"><a>Pindown</a></Link></li>
-                        <li><Link href="https://blockiot.trizwit.com/"><a>BlockIoT</a></Link></li>
-                        <li><Link href="https://trizui.trizwit.com/"><a>FASTN UI</a></Link></li>
+                        <li><Link href="https://pindown.app/">Pindown</Link></li>
+                        <li><Link href="https://blockiot.trizwit.com/">BlockIoT</Link></li>
+                        <li><Link href="https://trizui.trizwit.com/">FASTN UI</Link></li>
                     </ul>
                 </li>
-                <li><Link href="/contact"><a>Contact </a></Link></li>
+                <li><Link href="/contact">Contact </Link></li>
             </ul>
         </nav>
     </div>
@@ -76,7 +75,6 @@ return(
 </div>
 </div>
 </nav>
-</>
-)
+</>;
 }
 export default AgencyHeader

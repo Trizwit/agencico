@@ -6,8 +6,7 @@ import RecentPost from "../components/blog/RecentPosts"
 import Header from "../components/layout/header"
 
 const BlogPage=()=>{
-return(
-<>
+return <>
 <header>
   <Header />
   <BreadCrumb pagename="Blog" />
@@ -56,14 +55,14 @@ return(
       </div>
       <div className="keywords-tag">
         <ul>
-          <li><Link href="/"><a>App</a></Link></li>
-          <li><Link href="/"><a>Tech</a></Link></li>
-          <li><Link href="/"><a>Corporate</a></Link></li>
-          <li><Link href="/"><a>Landing</a></Link></li>
-          <li><Link href="/"><a>Software</a></Link></li>
-          <li><Link href="/"><a>UI/UX</a></Link></li>
-          <li><Link href="/"><a>Web Design</a></Link></li>
-          <li><Link href="/"><a>Mobile Design</a></Link></li>
+          <li><Link href="/">App</Link></li>
+          <li><Link href="/">Tech</Link></li>
+          <li><Link href="/">Corporate</Link></li>
+          <li><Link href="/">Landing</Link></li>
+          <li><Link href="/">Software</Link></li>
+          <li><Link href="/">UI/UX</Link></li>
+          <li><Link href="/">Web Design</Link></li>
+          <li><Link href="/">Mobile Design</Link></li>
         </ul>
       </div>
     </div>
@@ -75,7 +74,6 @@ return(
 </div>
 </div>
 
-</>
-)
+</>;
 }
 export default BlogPage

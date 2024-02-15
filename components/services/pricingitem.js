@@ -2,8 +2,7 @@ import Link from "next/link"
 
 const PricingItem=(props)=>{
 
-return(
-<>
+return <>
 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
 <div className="pricing-plan-wrap">
     <div className="pricing-plan-info d-flex align-items-center">
@@ -27,12 +26,11 @@ return(
             <li>10 Photos Asset</li>
         </ul>
         <div className="pricing-plan-btn-wrap">
-            <Link href=""><a>Buy Package</a></Link>
+            <Link href="">Buy Package</Link>
         </div>
     </div>
 </div>
 </div>
-</>
-)
+</>;
 }
 export default PricingItem

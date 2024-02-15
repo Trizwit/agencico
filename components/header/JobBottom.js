@@ -3,8 +3,7 @@ import JobConstantOne from "../../constant/Job/DetailOne"
 import { v4 as uuidv4 } from "uuid"
 
 const JobBottom=()=>{
-return(
-<>
+return <>
 <div className="hero-area">
 <div className="container">
 <div className="row align-items-center">
@@ -23,7 +22,7 @@ return(
                 <li>Recent Search :</li>
                 {
                   JobConstantOne.SearchTags.map(txt=>{
-                    return <li key={uuidv4()}><Link href="/"><a>{txt}</a></Link></li>
+                    return <li key={uuidv4()}><Link href="/">{txt}</Link></li>;
                   })
                 }
                 
@@ -41,7 +40,7 @@ return(
                 <li><img src={JobConstantOne.CartLogo2} alt=""/></li>
                 <li><img src={JobConstantOne.CartLogo3} alt=""/></li>
                 <li><img src={JobConstantOne.CartLogo4} alt=""/></li>
-                <li><Link href="/"><a><i className="bi bi-plus"></i></a></Link></li>
+                <li><Link href="/"><i className="bi bi-plus"></i></Link></li>
             </ul>
         </div>
     </div>
@@ -49,7 +48,6 @@ return(
 </div>
 </div>
 </div>
-</>
-)
+</>;
 }
 export default JobBottom

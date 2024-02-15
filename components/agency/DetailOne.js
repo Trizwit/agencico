@@ -2,8 +2,7 @@ import Link from "next/link"
 import AgencyConstantTwo from "../../constant/Agency/DetailTwo"
 
 const AgencyDetail=()=>{
-return(
-<>
+return <>
 <div className="ag-working-process">
 <div className="container">
 <div className="row align-items-center gy-4">
@@ -36,9 +35,9 @@ return(
             <p>{AgencyConstantTwo.subTitle1}</p>
 
             <div className="process-btn">
-                <Link href="/">
-                    <a className="ag-btn-fill">
-                        {AgencyConstantTwo.actionBtn1}</a>
+                <Link href="/" className="ag-btn-fill">
+
+                    {AgencyConstantTwo.actionBtn1}
                 </Link>
             </div>
     </div>
@@ -54,7 +53,7 @@ return(
         <p>{AgencyConstantTwo.subTitle2}</p>
 
         <div className="process-btn">
-            <Link href="/"><a className="ag-btn-fill">{AgencyConstantTwo.actionBtn2}</a></Link>
+            <Link href="/" className="ag-btn-fill">{AgencyConstantTwo.actionBtn2}</Link>
         </div>
     </div>
 </div>
@@ -80,7 +79,6 @@ return(
 </div>
 </div>
 </div>
-</>
-)
+</>;
 }
 export default AgencyDetail
