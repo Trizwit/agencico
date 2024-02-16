@@ -29,7 +29,7 @@ return(
         </div>
     </div>
     <div className="hrrd-collaborate-btn-wrap wow animate fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-    <Link href="/" className="common-btn btn-hrrd-1">{AboutDetail.actionBtn}</Link>
+        <Link href="/"><a className="common-btn btn-hrrd-1">{AboutDetail.actionBtn}</a></Link>
     </div>
 </div>
 <div className="col-xxl-7 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mobt-50">
