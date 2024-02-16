@@ -6,9 +6,9 @@ return(
 <div className="ag-blog-style">
 <div className="container">
 <div className="row justify-content-center">
-    <div className="col-lg-4">
+    <div className="col-lg-6">
         <h2 className="ag-section-title">
-        Working with best companies in Web3
+        Working with the best!
         </h2>
     </div>
 </div>
@@ -16,20 +16,20 @@ return(
     
     <AgencyBlogItem
      img="/assets/images/agency/blog/blog-c2.png"
-     title="24+"
+     title="7+"
      subtitle= "Projects"
     />
 
     <AgencyBlogItem
      img="/assets/images/agency/blog/blog-c2.png"
-     title="7+"
+     title="4+"
      subtitle="Partner Companies"
     />
 
     <AgencyBlogItem
      img="/assets/images/agency/blog/blog-c2.png"
-     title="150+"
-     subtitle="Smart Contracts On-Chain"
+     title="10+"
+     subtitle="Products Released"
     />
 
 </div>

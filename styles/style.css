@@ -583,9 +583,9 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .ag-section-title {
-  font-family: "Circular Std black";
-  font-weight: 900;
-  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
   line-height: 60px;
   text-align: center;
   color: #183B56;
@@ -3210,7 +3210,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   font-size: 80px;
   line-height: 90px;
   color: #183B56;
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   padding-bottom: 22px;
 }
 
@@ -3610,10 +3611,10 @@ ag working process style end
 }
 
 .ag-testimonial-card .testiminial-texts {
-  font-family: "Circular Std bold";
-  font-size: 30px;
-  line-height: 60px;
-  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+  text-align: start;
   color: #183B56;
 }
 
@@ -3669,11 +3670,11 @@ ag testimonial style end
   background: #FFFFFF;
   border-radius: 20px;
   height: 100px;
-  width: 100%;
+  width: 60%;
   border: none;
   padding: 20px 40px;
   padding-right: 180px;
-  font-family: "Circular Std bold";
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
 }
 
@@ -3702,7 +3703,7 @@ ag testimonial style end
 }
 
 .ag-newslatter-style .ag-newslatter-wrap .ag-newslatter-form input::placeholder {
-  font-family: "Circular Std medium";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   color: #8E9099;
@@ -3721,7 +3722,7 @@ ag testimonial style end
   background: #404C99;
   padding: 10px 39px;
   border-radius: 15px;
-  font-family: "Circular Std bold";
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 20px;
   text-align: center;

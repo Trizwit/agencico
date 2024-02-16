@@ -1,15 +1,15 @@
 
 const AgencyConstantOne = {
    Title: "Turbocharge Your MVP Journey!",
-   subTitle: "Blockchain | DeFi | Web3 Gaming | NFTs | DAOs | Tooling",
+   subTitle: "Driving Innovation Beyond Boundaries: Your Trusted Partner in Tech Evolution.",
    actionBtn: "Our Services",
    reviewLabel: {
-       title: "20k+ Customer Review",
+       title: "5+ Customer Reviews",
        pic: "/assets/images/agency/avater-sm.png"
    },
    ProjectLable: {
-       title: "Project Done",
-       count: "3,258"
+       title: "Projects Done",
+       count: "8"
    }
 }
 export default AgencyConstantOne

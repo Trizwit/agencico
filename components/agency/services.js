@@ -6,8 +6,8 @@ return(
 <div className="ag-service-style">
 <div className="container">
 <div className="row justify-content-center">
-    <div className="col-lx-3 col-lg-5">
-        <h2 className="ag-section-title">MVP Mastery: Our Epic Blueprint Unveiled!</h2>
+    <div className="col-xl-10 col-lg-5">
+        <h2 className="ag-section-title">Our Epic Blueprint Unveiled!</h2>
     </div>
 </div>
 
