@@ -7,7 +7,7 @@ return(
 <div className="container">
 <div className="row justify-content-center">
     <div className="col-lx-3 col-lg-5">
-        <h2 className="ag-section-title">Our Blockchain Consulting Process</h2>
+        <h2 className="ag-section-title">MVP Mastery: Our Epic Blueprint Unveiled!</h2>
     </div>
 </div>
 

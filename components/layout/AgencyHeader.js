@@ -42,7 +42,7 @@ return <>
 <div className="row align-items-center">
     <div className="col-xxl-3 col-xl-2 col-lg-2 col-sm-6 col-6">
         <div className="logo text-left">
-            <Link href="/"><Image src={NavConstant.Logo} alt="" width="160" height="108"/></Link>
+            <Link href="/"><img src={NavConstant.Logo} quality={100} alt="" width="160" height="108"/></Link>
         </div>
     </div>
     <div className="col-xxl-6 col-xl-6 col-lg-8 col-sm-6 col-6">

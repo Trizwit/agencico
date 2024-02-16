@@ -94,6 +94,18 @@ Edu Menu
   src: url(/assets/fonts/circularStd/CircularStd-Medium.ttf) format("truetype"), url(/assets/fonts/circularStd/CircularStd-Medium.woff) format("woff"), url(/assets/fonts/circularStd/CircularStd-Medium.woff2) format("woff2");
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url("/assets/fonts/poppins/Poppins-Regular.eot");
+  src: url("/assets/fonts/poppins/Poppins-Regular.eot?#iefix") format("embedded-opentype"),
+       url("/assets/fonts/poppins/Poppins-Regular.woff2") format("woff2"),
+       url("/assets/fonts/poppins/Poppins-Regular.woff") format("woff"),
+       url("/assets/fonts/poppins/Poppins-Regular.ttf") format("truetype"),
+       url("/assets/fonts/poppins/Poppins-Regular.svg#Poppins") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Circular Std Font Variables */
 /* Circular Std Font End */
 a {
@@ -710,7 +722,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .main-nav > ul > li {
   display: inline-block;
   position: relative;
-  padding: 47px 23px;
+  padding: 20px 23px;
 }
 
 .main-nav > ul > li.has-child-menu:after {
@@ -754,7 +766,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .main-nav ul li .sub-menu {
   position: absolute;
   left: 0;
-  top: 90px;
+  top: 63px;
   right: 0;
   min-width: 200px;
   list-style: none;
@@ -788,6 +800,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   display: block;
   padding: 15px 18px;
   line-height: 1;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-weight: 500;
   border-bottom: 1px solid #ddd;
@@ -801,7 +814,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .main-nav ul li .sub-menu > li a:hover {
-  color: #FF8345;
+  color: #0ba7df;
 }
 
 .main-nav .fl {
@@ -868,15 +881,13 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .sticky {
   position: fixed;
   top: 0;
-  background: #F8F9FA;
+  background: rgba(248, 249, 250, 0.8); /* Semi-transparent background color */
+  backdrop-filter: blur(10px); /* Apply background blur */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
   z-index: 99;
-  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.01);
-          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.01);
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.1); /* Soft shadow */
   padding-top: unset;
 }
-
 /*================================================
 3. Hero area CSS
 =================================================*/
@@ -5195,19 +5206,23 @@ Agency Menu Css
 }
 
 .agency-menu .main-nav > ul > li > a {
-  color: rgba(24, 59, 86, 0.8);
+  color: #404C99;
   line-height: 1;
   position: relative;
   z-index: 1;
-  font-family: "Circular Std regular";
+  font-family: 'Poppins', sans-serif;
 }
 
 .agency-menu .main-nav > ul > li > a.active {
   color: #404C99;
 }
 
+.agency-menu .main-nav > ul > li > a:hover {
+  text-decoration: underline;
+}
+
 .agency-menu .main-nav > ul > li.has-child-menu:after {
-  top: 40px;
+  top: 13px;
 }
 
 .agency-menu .menu-btn-wrap .log-btn {
