@@ -17,42 +17,45 @@ return(
      bg=""
      img="/assets/images/agency/icons/ideation.png"
      name="Ideation"
-     title="We discuss the feasibility of your blockchain project with our blockchain developers and define the business goals and workflow for your system."
+     title="We discuss the feasibility of your project with our developers and define the business goals and workflow for your system."
     />
 
     <AgencyServiceItem 
      bg="bg-v2"
      img="/assets/images/agency/icons/assessment.png"
      name="Assessment"
-     title="We analyze your existing solution and discover if it can be migrated to the blockchain."
+     title="We scrutinize your current solution to unearth its untapped potential for maximum optimization and further enhancement."
     />
 
     <AgencyServiceItem 
      bg="bg-v3"
      img="/assets/images/agency/icons/techcom.png"
      name="Technical Component Definition"
-     title="Our blockchain consulting team identifies the right blockchain platform based on your business requirements and the type of blockchain."
+     title="
+     Our team discerns the optimal technical stack tailored precisely to your platform's needs, aligning seamlessly with your business objectives."
     />
 
     <AgencyServiceItem 
      bg=""
      img="/assets/images/agency/icons/poc.png"
      name="PoC"
-     title="We create a framework and prototype to identify the use cases for the business with minimum viable features."
+     title="We craft a framework and prototype, pinpointing key business use cases with minimal essential features, ensuring streamlined identification and validation of business needs."
     />
 
     <AgencyServiceItem 
      bg="bg-v2"
      img="/assets/images/agency/icons/intgrtn.png"
      name="Integration"
-     title="Our Blockchain Consultants help clients identify if the blockchain technology can be integrated into their business operations and environment."
+     title="
+     We assist clients in identifying opportunities for integrating the latest cutting-edge technologies into their business operations and environment, ensuring they stay at the forefront of innovation."
     />
 
     <AgencyServiceItem 
      bg="bg-v3"
      img="/assets/images/agency/icons/dvlpmnt.png"
      name="Development"
-     title="Once you are ready to start blockchain technology development, we help you build the blockchain product, from UI/UX to full front-end and back-end implementation."
+     title="
+     When you're set to start your MVP development, we handle everything from UI/UX design to full front-end and back-end implementation, ensuring a seamless product build."
     />
 
 </div>
