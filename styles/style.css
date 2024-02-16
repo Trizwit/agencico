@@ -660,7 +660,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .hamburger span {
   width: 100%;
   height: 2px;
-  background: #FF8345;
+  background: #FF8345; 
   display: block;
   position: absolute;
   right: 0;
