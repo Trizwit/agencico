@@ -922,6 +922,15 @@
     .tri-maulti-searchbar .tri-btn-fill{
         padding: 18px 40px;
     }
+    .logo, .main-nav, .menu-btn-wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 40px;
+      }
     
 }
 @media only screen and (max-width: 767px) {
@@ -944,6 +953,26 @@
     }
     .tri-explore-bar-row {
         padding: 18px 25px;
+    }
+    .logo, .main-nav, .menu-btn-wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 40px;
+      }
+}
+
+@media only screen and (min-width: 1199px) {
+    .ag-newslatter-style .ag-newslatter-wrap .ag-newslatter-form button {
+        gap: 10px;
+        padding: 10px 20px;
+        font-size: 14px;
+        top: 0px;
+        right: 25px;
+        bottom: 0px;
     }
 }
 
@@ -1135,4 +1164,13 @@
         padding: 60px 0;
         padding-top: 52px;
     }
+    .logo, .main-nav, .menu-btn-wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 40px;
+      }
 }

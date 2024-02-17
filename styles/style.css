@@ -636,7 +636,6 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100%;
 }
 
 .header-menu-area {
@@ -3346,7 +3345,7 @@ ag client logo style end
   border-radius: 16.8383px;
   padding: 30px;
   padding-bottom: 50px;
-  height: 400px;
+  height: 440px;
 
   /* Neumorphic Effect */
   box-shadow: 10px 10px 20px #d9d9d9,
@@ -3394,14 +3393,14 @@ ag client logo style end
 }
 
 .ag-service-card .service-info .service-title {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   color: #183B56;
   padding-top: 37px;
 }
 
 .ag-service-card .service-info p {
-  font-family: "Circular Std regular";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 36px;
@@ -3673,7 +3672,8 @@ ag testimonial style end
   background: #FFFFFF;
   border-radius: 20px;
   height: 65px;
-  width: 60%;
+  width: 100%;
+  max-width: 695px;
   border: none;
   padding: 20px 40px;
   padding-right: 180px;
@@ -3731,9 +3731,9 @@ ag testimonial style end
   text-align: center;
   color: #FFFFFF;
   position: absolute;
-  top: 0px;
+  top: 10px;
   right: 18px;
-  bottom: 0px;
+  bottom: 10px;
   z-index: 1;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -5234,7 +5234,7 @@ Agency Menu Css
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 15px;
-  font-family: "Circular Std bold";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #183B56;
   padding: 19px 43px;
