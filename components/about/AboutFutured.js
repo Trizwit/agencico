@@ -17,25 +17,26 @@ return(
   <FuturedItem
    icon="/assets/images/icon/featured-icon-1.png"
    title="Guidance"
-   desc="To provide expert advice, guidance, and support to clients seeking to integrate Web3 technologies into their operations, products, and services."
+   desc="
+   To offer expert consultation, guidance, and assistance to clients aiming to incorporate state-of-the-art technologies into their operations, products, and services."
   />
 
   <FuturedItem
    icon="/assets/images/icon/featured-icon-2.png"
    title="Innovation"
-   desc="To foster development of innovative and impactful Web3 solutions that address real-world challenges and opportunities."
+   desc="To cultivate the creation of inventive and impactful technical solutions that tackle real-world challenges and opportunities."
   />
 
  <FuturedItem
    icon="/assets/images/icon/featured-icon-3.png"
    title="Growth"
-   desc="To contribute to the growth and evolution of the Web3 ecosystem by collaborating with other stakeholders and sharing knowledge and resources."
+   desc="To actively participate in advancing and refining the startup ecosystem by engaging with fellow stakeholders, exchanging knowledge, and pooling resources."
   />
 
   <FuturedItem
    icon="/assets/images/icon/featured-icon-4.png"
    title="Educate"
-   desc="To educate and raise awareness about the benefits and implications of decentralized technologies and promote their adoption and responsible use."
+   desc="To inform and raise awareness regarding the advantages and implications of cutting-edge technologies, advocating for their adoption and conscientious utilization."
   />
 
 </div>

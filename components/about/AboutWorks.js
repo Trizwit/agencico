@@ -57,7 +57,8 @@ return(
 <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
     <div className="hrdd-section-title text-center wow animate fadeInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
         <h1><span>Vision</span></h1>
-        <p className="latest-text">To become a leading Web3 consultancy company that empowers individuals, businesses, and organizations to harness the full potential of decentralized technologies and build a more open, secure, and equitable internet.</p>
+        <p className="latest-text">
+Our aim is to emerge as a premier software consultancy firm, empowering individuals, businesses, and organizations to unlock the full potential of MVP development without encountering technical challenges.</p>
     </div>
 </div>
 </div>

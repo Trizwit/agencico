@@ -1,7 +1,7 @@
 
 const AboutDetail={
-    Title: "<span>Fulfilling</span> Dreams in Technology through Product Development Excellence",
-    short_desc:"The Trizwit team started off its journey in the year 2021, with the idea of helping out those in the blockchain and web3 space realise their dreams with the best in class technology available. We are committed to build robust and scalable products without compromising on the quality.",
+    Title: "<span>Realizing Technological Dreams with Unmatched Product Development Excellence",
+    short_desc:"The Trizwit team embarked on its journey in 2021 with a mission to assist startups facing challenges in launching an MVP to kickstart their entrepreneurial endeavors. Our vision extended beyond merely delivering a basic product; rather, we prioritized offering the finest, scalable, and cost-effective MVP solutions. Our dedication lies in constructing resilient and scalable products",
     services:[
         "Organize your data",
         "Always in sync",
@@ -12,11 +12,11 @@ const AboutDetail={
     leftImage:"/assets/images/about/aboutus.png",
     feature:[
         {
-            title: "Our Customer",
+            title: "Our Customers",
             short_desc: "Business advisory service advises current and future business prospects of a client, with the aim of customers."
         },
         {
-            title: "Our Product",
+            title: "Our Products",
             short_desc: "Business advisory service advises current and future business prospects of a client, with the aim of customers."
         },
         {

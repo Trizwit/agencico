@@ -359,7 +359,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrdd-section-title h1 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 48px;
   line-height: 58px;
@@ -608,7 +608,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .breadcrumb-area .breadcrumb-text h1 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 72px;
   color: #3B3B3B;
@@ -1656,7 +1656,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-menu .main-nav > ul > li.has-child-menu:after {
-  top: 39px;
+  top: 13px;
 }
 
 .hrrd-menu .menu-btn-wrap a {
@@ -1671,7 +1671,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 13. Hrrd Hero area CSS
 =================================================*/
 .hrrd-hero-content h1 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-size: 70px;
   line-height: 80px;
   color: #3B3B3B;
@@ -1876,7 +1876,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .featured-box .featured-content h2 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -2007,7 +2007,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .income-cart .income-price-wrap .income-main-price h2 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -2071,7 +2071,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .like-cart .like-cart-box .like-cart-content h4 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 37.6195px;
@@ -2119,7 +2119,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .time-cart .time-cart-content h2 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 24.8387px;
   letter-spacing: 0.248387px;
@@ -2348,7 +2348,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .testimonial-cart .testimonial-cart-people h3 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 20px;
   letter-spacing: 0.211719px;
@@ -2586,7 +2586,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .price-content-box .price-top-content h2 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 24px;
   color: #3B3B3B;
@@ -2596,7 +2596,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .price-content-box .price-top-content h1 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 48px;
   color: #3B3B3B;
@@ -2711,7 +2711,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 19. Hrrd Testimonial area CSS
 =================================================*/
 .testimonial-hrrd .testimonial-content-slide-box h2 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #3B3B3B;
 }
@@ -2786,7 +2786,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 21. Hrrd Footer area CSS
 =================================================*/
 .hrrd-footer-area .single-widget .footer-title h3 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #3B3B3B;
 }
@@ -3460,7 +3460,7 @@ ag service style end
 }
 
 .ag-blog-card .blog-disc .blog-title {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-size: 60px;
   line-height: 34px;
   color: #183B56;
@@ -3821,7 +3821,7 @@ ag newslatter style end
 }
 
 .ag-footer-style .footer-widget .footer-widget-title {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-size: 22px;
   color: #183B56;
   text-transform: capitalize;
@@ -6258,7 +6258,7 @@ Agency Menu Css
 }
 
 .contact-input h1 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 48px;
   color: #3B3B3B;
