@@ -4,7 +4,7 @@ const AgencyConstantOne = {
    subTitle: "Driving Innovation Beyond Boundaries: Your Trusted Partner in Tech Evolution.",
    actionBtn: "Our Services",
    reviewLabel: {
-       title: "5+ Customer Reviews",
+       title: "8+ Projects Done",
        pic: "/assets/images/agency/avater-sm.png"
    },
    ProjectLable: {

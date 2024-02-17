@@ -15,10 +15,7 @@ return <>
                 <img src="/assets/images/agency/shapes/process-shape1.png" alt=""/>
             </div>
 
-            <div className="client-group">
-                <h6>{AgencyConstantTwo.box1.title}</h6>
-                <img src={AgencyConstantTwo.box1.groupImg} alt="" className="img-fluid"/>
-            </div>
+           
         </div>
         <div className="features-img-bg">
             <img src="/assets/images/agency/shapes/process-circle1.png" alt=""/>
@@ -66,9 +63,7 @@ return <>
                 <img src="/assets/images/agency/shapes/process-shape2.png" alt=""/>
             </div>
 
-            <div className="client-group client-group2">
-                <img src="assets/images/agency/shapes/increment-lavel.png" alt=""/>
-            </div>
+           
         </div>
         <div className="features-img-bg2">
             <img src="assets/images/agency/shapes/process-circle2.png" alt=""/>
