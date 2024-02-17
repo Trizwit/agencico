@@ -672,7 +672,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .hamburger span {
   width: 100%;
   height: 2px;
-  background: #FF8345;
+  background: #2ca0ca;
   display: block;
   position: absolute;
   right: 0;
@@ -2797,12 +2797,12 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-footer-area .single-widget .footer-social ul li i {
-  background: rgba(255, 115, 66, 0.1);
+  background: #e9f1f5;
   color: rgba(255, 115, 66, 0.6);
 }
 
 .hrrd-footer-area .single-widget .footer-social ul li i:hover {
-  background: rgba(255, 115, 66, 0.4);
+  background: #cee8f5;
   color: rgba(255, 115, 66, 0.9);
 }
 
