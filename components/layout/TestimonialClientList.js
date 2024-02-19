@@ -18,7 +18,7 @@ return(
             <li><i className="bi bi-star-fill"></i></li>
             <li><i className="bi bi-star-fill"></i></li>
         </ul>
-        <p>Thanks to the MVP they provided, I've successfully launched my startup. Their service is unparalleled and truly exceptional.</p>
+        <p>Thanks to the MVP they provided, I&apos;ve successfully launched my startup. Their service is unparalleled and truly exceptional.</p>
     </div>
 </div>
 </>
