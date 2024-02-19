@@ -53,11 +53,11 @@ return(
          ref={txtSliderRef}
         >
         <div className="testimonial-content-slide-box">
-            <h2>“Thanks to the MVP they provided, I've successfully launched my startup. Their service is unparalleled and truly exceptional.”</h2>
+            <h2>“Thanks to the MVP they provided, I&apos;ve successfully launched my startup. Their service is unparalleled and truly exceptional.”</h2>
             <p>— Ferdinand Stingo - Co Founder of CocoPay Company</p> 
         </div>
         <div className="testimonial-content-slide-box">
-            <h2>“Thanks to the MVP they provided, I've successfully launched my startup. Their service is unparalleled and truly exceptional.”</h2>
+            <h2>“Thanks to the MVP they provided, I&apos;ve successfully launched my startup. Their service is unparalleled and truly exceptional.”</h2>
             <p>— Ferdinand Stingo - Co Founder of CocoPay Company</p> 
         </div>
         </Slider>
@@ -123,11 +123,11 @@ return(
          {...TextSliderSettingMobile}
         >
         <div className="testimonial-content-slide-box">
-            <h2>“Thanks to the MVP they provided, I've successfully launched my startup. Their service is unparalleled and truly exceptional.”</h2>
+            <h2>“Thanks to the MVP they provided, I&apos;ve successfully launched my startup. Their service is unparalleled and truly exceptional.”</h2>
             <p>— Ferdinand Stindl - Co Founder of CocoPay Company</p> 
         </div>
         <div className="testimonial-content-slide-box">
-            <h2>“Thanks to the MVP they provided, I've successfully launched my startup. Their service is unparalleled and truly exceptional.”</h2>
+            <h2>“Thanks to the MVP they provided, I&apos;ve successfully launched my startup. Their service is unparalleled and truly exceptional.”</h2>
             <p>— Ferdinand Stindl - Co Founder of CocoPay Company</p> 
         </div>
         </Slider>

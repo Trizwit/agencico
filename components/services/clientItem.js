@@ -18,7 +18,7 @@ return <>
             <li><Link href="/"><i className="bi bi-star-fill"></i></Link></li>
             <li><Link href="/"><i className="bi bi-star-fill"></i></Link></li>
         </ul>
-        <p>Thanks to the MVP they provided, I've successfully launched my startup. Their service is unparalleled and truly exceptional.</p>
+        <p>Thanks to the MVP they provided, I&apos;ve successfully launched my startup. Their service is unparalleled and truly exceptional.</p>
     </div>
 </div>
 </>;
