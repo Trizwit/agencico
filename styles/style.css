@@ -94,6 +94,18 @@ Edu Menu
   src: url(/assets/fonts/circularStd/CircularStd-Medium.ttf) format("truetype"), url(/assets/fonts/circularStd/CircularStd-Medium.woff) format("woff"), url(/assets/fonts/circularStd/CircularStd-Medium.woff2) format("woff2");
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url("/assets/fonts/poppins/Poppins-Regular.eot");
+  src: url("/assets/fonts/poppins/Poppins-Regular.eot?#iefix") format("embedded-opentype"),
+       url("/assets/fonts/poppins/Poppins-Regular.woff2") format("woff2"),
+       url("/assets/fonts/poppins/Poppins-Regular.woff") format("woff"),
+       url("/assets/fonts/poppins/Poppins-Regular.ttf") format("truetype"),
+       url("/assets/fonts/poppins/Poppins-Regular.svg#Poppins") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Circular Std Font Variables */
 /* Circular Std Font End */
 a {
@@ -268,11 +280,11 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .common-btn.btn-hrrd-2::before {
-  background: #FF7342;
+  background: #6366F1;
 }
 
 .common-btn.btn-hrrd-1 {
-  background: #FF7342;
+  background: #6366F1;
   border-radius: 4px;
 }
 
@@ -347,7 +359,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrdd-section-title h1 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 48px;
   line-height: 58px;
@@ -366,7 +378,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   left: 0;
   height: 50px;
   width: 76%;
-  border: 0.5px solid #FF7342;
+  border: 0.5px solid #6366F1;
   background: #FFE3D9;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -571,9 +583,9 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .ag-section-title {
-  font-family: "Circular Std black";
-  font-weight: 900;
-  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
   line-height: 60px;
   text-align: center;
   color: #183B56;
@@ -589,21 +601,21 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .breadcrumb-area {
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFEDE7), to(#FFFFFF));
-  background: linear-gradient(180deg, #FFEDE7 0%, #FFFFFF 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ECF7FB), to(#FFFFFF));
+  background: linear-gradient(180deg, #ECF7FB 0%, #FFFFFF 100%);
   padding-top: 214px;
   padding-bottom: 100px;
 }
 
 .breadcrumb-area .breadcrumb-text h1 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 72px;
   color: #3B3B3B;
 }
 
 .breadcrumb-area .breadcrumb-text p {
-  color: #FF7342;
+  color: #6366F1;
   font-weight: 500;
   font-size: 18px;
   margin-top: 20px;
@@ -624,7 +636,6 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100%;
 }
 
 .header-menu-area {
@@ -660,7 +671,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .hamburger span {
   width: 100%;
   height: 2px;
-  background: #FF8345;
+  background: #2ca0ca;
   display: block;
   position: absolute;
   right: 0;
@@ -710,7 +721,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .main-nav > ul > li {
   display: inline-block;
   position: relative;
-  padding: 47px 23px;
+  padding: 20px 23px;
 }
 
 .main-nav > ul > li.has-child-menu:after {
@@ -754,7 +765,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .main-nav ul li .sub-menu {
   position: absolute;
   left: 0;
-  top: 90px;
+  top: 63px;
   right: 0;
   min-width: 200px;
   list-style: none;
@@ -788,6 +799,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   display: block;
   padding: 15px 18px;
   line-height: 1;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-weight: 500;
   border-bottom: 1px solid #ddd;
@@ -801,7 +813,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .main-nav ul li .sub-menu > li a:hover {
-  color: #FF8345;
+  color: #0ba7df;
 }
 
 .main-nav .fl {
@@ -868,15 +880,13 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .sticky {
   position: fixed;
   top: 0;
-  background: #F8F9FA;
+  background: rgba(248, 249, 250, 0.8); /* Semi-transparent background color */
+  backdrop-filter: blur(10px); /* Apply background blur */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
   z-index: 99;
-  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.01);
-          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.01);
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.1); /* Soft shadow */
   padding-top: unset;
 }
-
 /*================================================
 3. Hero area CSS
 =================================================*/
@@ -1541,6 +1551,11 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   z-index: -1;
 }
 
+.footer-logo-width {
+  width: 30%;
+  height: auto;
+}
+
 .single-widget .footer-logo p {
   margin: 13px 0 46px;
 }
@@ -1626,8 +1641,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-menu .main-nav > ul > li:hover > a {
-  color: #FF7342;
-  border-bottom: 1px solid #FF7342;
+  color: #6366F1;
+  border-bottom: 1px solid #6366F1;
 }
 
 .hrrd-menu .main-nav > ul > li > a {
@@ -1636,12 +1651,12 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-menu .main-nav > ul > li > a.active {
-  color: #FF7342;
-  border-bottom: 1px solid #FF7342;
+  color: #6366F1;
+  border-bottom: 1px solid #6366F1;
 }
 
 .hrrd-menu .main-nav > ul > li.has-child-menu:after {
-  top: 39px;
+  top: 13px;
 }
 
 .hrrd-menu .menu-btn-wrap a {
@@ -1656,7 +1671,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 13. Hrrd Hero area CSS
 =================================================*/
 .hrrd-hero-content h1 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-size: 70px;
   line-height: 80px;
   color: #3B3B3B;
@@ -1835,6 +1850,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .featured-box {
   display: -webkit-box;
   display: -ms-flexbox;
+  height: 85%;
   display: flex;
   background: #FFFFFF;
   -webkit-box-shadow: 5px 30px 56.1276px rgba(55, 55, 55, 0.1098);
@@ -1860,7 +1876,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .featured-box .featured-content h2 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -1939,7 +1955,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   content: "";
   width: 8px;
   height: 8px;
-  background: #FF7342;
+  background: #6366F1;
   top: 50%;
   left: 31px;
   -webkit-transform: translateY(-50%);
@@ -1991,7 +2007,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .income-cart .income-price-wrap .income-main-price h2 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -2055,7 +2071,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .like-cart .like-cart-box .like-cart-content h4 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 37.6195px;
@@ -2103,7 +2119,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .time-cart .time-cart-content h2 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 24.8387px;
   letter-spacing: 0.248387px;
@@ -2265,7 +2281,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .collaborate-info .collaborate-info-list p i {
-  color: #FF7342;
+  color: #6366F1;
   background: rgba(255, 115, 66, 0.2);
   mix-blend-mode: normal;
   display: -webkit-inline-box;
@@ -2332,7 +2348,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .testimonial-cart .testimonial-cart-people h3 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 20px;
   letter-spacing: 0.211719px;
@@ -2426,7 +2442,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .apps-box:hover {
-  background: #FF7342;
+  background: #6366F1;
   -webkit-box-shadow: 10px 20px 50px rgba(81, 75, 75, 0.2);
           box-shadow: 10px 20px 50px rgba(81, 75, 75, 0.2);
   -webkit-transform: translateY(-3px);
@@ -2466,7 +2482,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #FF7342;
+  background-color: #6366F1;
   -webkit-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
   -webkit-transition: 0.6s ease transform, 0.6s -webkit-box-shadow;
@@ -2570,7 +2586,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .price-content-box .price-top-content h2 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 24px;
   color: #3B3B3B;
@@ -2580,7 +2596,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .price-content-box .price-top-content h1 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 48px;
   color: #3B3B3B;
@@ -2617,7 +2633,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   width: 26px;
   height: 26px;
   background: rgba(255, 115, 66, 0.1);
-  color: #FF7342;
+  color: #6366F1;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2651,7 +2667,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .price-content-box .pricing-btn-wrap .pricing-btn.style-2 {
-  background: #FF7342;
+  background: #6366F1;
 }
 
 .price-content-box .pricing-btn-wrap .pricing-btn.style-2:hover {
@@ -2695,7 +2711,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 19. Hrrd Testimonial area CSS
 =================================================*/
 .testimonial-hrrd .testimonial-content-slide-box h2 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #3B3B3B;
 }
@@ -2711,7 +2727,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .testimonial-hrrd .testimonial-content-slide-wrap .tst:hover {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .hrrd-testimonial-shape {
@@ -2770,7 +2786,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 21. Hrrd Footer area CSS
 =================================================*/
 .hrrd-footer-area .single-widget .footer-title h3 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #3B3B3B;
 }
@@ -2780,12 +2796,12 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hrrd-footer-area .single-widget .footer-social ul li i {
-  background: rgba(255, 115, 66, 0.1);
+  background: #e9f1f5;
   color: rgba(255, 115, 66, 0.6);
 }
 
 .hrrd-footer-area .single-widget .footer-social ul li i:hover {
-  background: rgba(255, 115, 66, 0.4);
+  background: #cee8f5;
   color: rgba(255, 115, 66, 0.9);
 }
 
@@ -3193,7 +3209,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   font-size: 80px;
   line-height: 90px;
   color: #183B56;
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   padding-bottom: 22px;
 }
 
@@ -3217,7 +3234,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .ag-hero-style .ag-hero-figure .project-label {
   position: absolute;
-  background: #FFFFFF;
+  background: #ecf7fb;
   -webkit-box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.06);
           box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
@@ -3251,9 +3268,9 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .ag-hero-style .ag-hero-figure .review-label {
   position: absolute;
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.06);
-          box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.06);
+  background: #ecf7fb;
+  -webkit-box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.09);
+          box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.09);
   border-radius: 10px;
   padding: 23px 25px;
   padding-bottom: 20px;
@@ -3280,8 +3297,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .ag-hero-style .ag-hero-figure .review-label h5 {
-  font-family: "Circular Std medium";
-  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
   color: #5A7184;
   padding-top: 8px;
 }
@@ -3325,11 +3342,14 @@ ag client logo style end
 
 .ag-service-card {
   background: #FFFFFF;
-  -webkit-box-shadow: 5px 30px 56.1276px rgba(55, 55, 55, 0.08);
-          box-shadow: 5px 30px 56.1276px rgba(55, 55, 55, 0.08);
   border-radius: 16.8383px;
-  padding: 30px 30px;
+  padding: 30px;
   padding-bottom: 50px;
+  height: 440px;
+
+  /* Neumorphic Effect */
+  box-shadow: 10px 10px 20px #d9d9d9,
+              -10px -10px 20px #ffffff;
 }
 
 .ag-service-card:hover .service-icon {
@@ -3356,10 +3376,10 @@ ag client logo style end
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   background: rgba(82, 211, 253, 0.1);
-  border-radius: 20px;
+  border-radius: 50%;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -3373,14 +3393,14 @@ ag client logo style end
 }
 
 .ag-service-card .service-info .service-title {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   color: #183B56;
   padding-top: 37px;
 }
 
 .ag-service-card .service-info p {
-  font-family: "Circular Std regular";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 36px;
@@ -3427,6 +3447,7 @@ ag service style end
 
 .ag-blog-card .blog-disc .blog-meta {
   margin-top: 25px;
+  
 }
 
 .ag-blog-card .blog-disc .blog-meta a {
@@ -3435,18 +3456,22 @@ ag service style end
   font-size: 18px;
   color: #5A7184;
   display: inline-block;
+ 
 }
 
 .ag-blog-card .blog-disc .blog-title {
-  font-family: "Circular Std black";
-  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
   line-height: 34px;
   color: #183B56;
   padding-top: 10px;
+  text-align: center;
+  
 }
 
 .ag-blog-card .blog-disc .blog-btn {
   margin-top: 20px;
+  text-align: center;
 }
 
 .ag-blog-card .blog-disc .blog-btn a {
@@ -3454,6 +3479,7 @@ ag service style end
   font-family: "Circular Std bold";
   font-size: 16px;
   color: #404C99;
+  
 }
 
 .ag-blog-card .blog-disc .blog-btn a:hover i {
@@ -3585,10 +3611,10 @@ ag working process style end
 }
 
 .ag-testimonial-card .testiminial-texts {
-  font-family: "Circular Std bold";
-  font-size: 30px;
-  line-height: 60px;
-  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+  text-align: start;
   color: #183B56;
 }
 
@@ -3638,17 +3664,20 @@ ag testimonial style end
 
 .ag-newslatter-style .ag-newslatter-wrap h2 {
   padding-bottom: 36px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .ag-newslatter-style .ag-newslatter-wrap .ag-newslatter-form input {
   background: #FFFFFF;
   border-radius: 20px;
-  height: 100px;
+  height: 65px;
   width: 100%;
+  max-width: 695px;
   border: none;
   padding: 20px 40px;
   padding-right: 180px;
-  font-family: "Circular Std bold";
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
 }
 
@@ -3677,7 +3706,7 @@ ag testimonial style end
 }
 
 .ag-newslatter-style .ag-newslatter-wrap .ag-newslatter-form input::placeholder {
-  font-family: "Circular Std medium";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   color: #8E9099;
@@ -3696,16 +3725,16 @@ ag testimonial style end
   background: #404C99;
   padding: 10px 39px;
   border-radius: 15px;
-  font-family: "Circular Std bold";
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   color: #FFFFFF;
   position: absolute;
-  top: 18px;
+  top: 10px;
   right: 18px;
-  bottom: 18px;
-  z-index: 999;
+  bottom: 10px;
+  z-index: 1;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -3792,7 +3821,7 @@ ag newslatter style end
 }
 
 .ag-footer-style .footer-widget .footer-widget-title {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-size: 22px;
   color: #183B56;
   text-transform: capitalize;
@@ -5181,19 +5210,23 @@ Agency Menu Css
 }
 
 .agency-menu .main-nav > ul > li > a {
-  color: rgba(24, 59, 86, 0.8);
+  color: #404C99;
   line-height: 1;
   position: relative;
   z-index: 1;
-  font-family: "Circular Std regular";
+  font-family: 'Poppins', sans-serif;
 }
 
 .agency-menu .main-nav > ul > li > a.active {
   color: #404C99;
 }
 
+.agency-menu .main-nav > ul > li > a:hover {
+  text-decoration: underline;
+}
+
 .agency-menu .main-nav > ul > li.has-child-menu:after {
-  top: 40px;
+  top: 13px;
 }
 
 .agency-menu .menu-btn-wrap .log-btn {
@@ -5201,7 +5234,7 @@ Agency Menu Css
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 15px;
-  font-family: "Circular Std bold";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #183B56;
   padding: 19px 43px;
@@ -5283,14 +5316,14 @@ Agency Menu Css
 
 .work-link ul li.active {
   position: relative;
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .work-link ul li.active::before {
   position: absolute;
   bottom: -6px;
   left: 0;
-  background: #FF7342;
+  background: #6366F1;
   content: "";
   height: 2px;
   width: 100%;
@@ -5385,7 +5418,7 @@ Agency Menu Css
   content: "";
   width: 2px;
   height: 59px;
-  background: #FF7342;
+  background: #6366F1;
 }
 
 .single-about-team:hover .single-about-team-img img {
@@ -5396,7 +5429,7 @@ Agency Menu Css
 }
 
 .single-about-team:hover .single-about-team-content h3 {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .single-about-team .single-about-team-content h3 {
@@ -5438,7 +5471,7 @@ Agency Menu Css
 }
 
 .inner-slide-wrap .owl-dots button.active {
-  background: #FF7342;
+  background: #6366F1;
 }
 
 .inner-slide-wrap .owl-dots button:last-child {
@@ -5468,7 +5501,7 @@ Agency Menu Css
 }
 
 .single-client-testimonial:hover .client-testimonial-info h2 {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .single-client-testimonial .client-testimonial-img img {
@@ -5552,7 +5585,7 @@ Agency Menu Css
 }
 
 .all-services-box:hover .all-services-icon i {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .all-services-box .all-services-icon {
@@ -5599,7 +5632,7 @@ Agency Menu Css
 }
 
 .all-services-box .all-services-content a {
-  color: #FF7342;
+  color: #6366F1;
   font-weight: 600;
   font-size: 18px;
 }
@@ -5648,11 +5681,11 @@ Agency Menu Css
 }
 
 .pricing-plan-wrap:hover .pricing-plan-info .pricing-plan-icon i {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .pricing-plan-wrap:hover .pricing-plan-btn-wrap a {
-  background: #FF7342;
+  background: #6366F1;
   color: #fff;
 }
 
@@ -5765,7 +5798,7 @@ Agency Menu Css
 }
 
 .blog-post-wrap h1 a:hover {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .blog-post-wrap p {
@@ -5798,12 +5831,12 @@ Agency Menu Css
 }
 
 .blog-post-wrap ul li i {
-  color: #FF7342;
+  color: #6366F1;
   margin-right: 5px;
 }
 
 .blog-post-wrap .blog-post-btn {
-  color: #FF7342;
+  color: #6366F1;
   -webkit-transition: .5s;
   transition: .5s;
   display: inline-block;
@@ -5868,13 +5901,13 @@ Agency Menu Css
 }
 
 .pagination-wrap ul li:hover {
-  background: #FF7342;
+  background: #6366F1;
   color: #fff;
 }
 
 .pagination-wrap ul li:first-child, .pagination-wrap ul li:last-child {
   background: none;
-  color: #FF7342;
+  color: #6366F1;
   font-size: 38px;
   width: unset;
   height: unset;
@@ -5908,7 +5941,7 @@ Agency Menu Css
   height: 32px;
   position: absolute;
   content: '';
-  background: #FF7342;
+  background: #6366F1;
   left: -2px;
   -webkit-animation: cart-anm-t-b 4s alternate linear infinite;
           animation: cart-anm-t-b 4s alternate linear infinite;
@@ -5942,7 +5975,7 @@ Agency Menu Css
 
 .cart-wrap .single-cart .cart-form i {
   position: absolute;
-  color: #FF7342;
+  color: #6366F1;
   font-size: 18px;
   right: 18px;
   top: 50%;
@@ -6017,7 +6050,7 @@ Agency Menu Css
 }
 
 .cart-wrap .single-cart .cart-post .cart-post-content h4 a:hover {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .cart-wrap .single-cart .cart-post .cart-post-content p {
@@ -6050,7 +6083,7 @@ Agency Menu Css
 }
 
 .cart-wrap .single-cart .comment-box h4:hover {
-  color: #FF7342;
+  color: #6366F1;
 }
 
 .cart-wrap .single-cart .comment-box h4 span {
@@ -6073,7 +6106,7 @@ Agency Menu Css
 
 .cart-wrap .single-cart .keywords-tag ul li:hover {
   color: #FFFFFF;
-  background: #FF7342;
+  background: #6366F1;
 }
 
 .cart-wrap .single-cart .contact-details {
@@ -6121,7 +6154,7 @@ Agency Menu Css
 
 .cart-wrap .single-cart .contact-details .contact-details-info ul li i {
   font-size: 20px;
-  color: #FF7342;
+  color: #6366F1;
   margin-right: 15px;
   -webkit-transition: color .25s ease-in-out;
   transition: color .25s ease-in-out;
@@ -6178,7 +6211,7 @@ Agency Menu Css
   height: 15px;
   width: 15px;
   border-radius: 2px;
-  border: 1px solid #FF7342;
+  border: 1px solid #6366F1;
   border-radius: 4px;
   /* Create the checkmark/indicator (hidden when not checked) */
 }
@@ -6198,7 +6231,7 @@ Agency Menu Css
 }
 
 .shop-check input:checked ~ .checkmark {
-  background-color: #FF7342;
+  background-color: #6366F1;
 }
 
 /* Show the checkmark when checked */
@@ -6225,7 +6258,7 @@ Agency Menu Css
 }
 
 .contact-input h1 {
-  font-family: "Circular Std black";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 48px;
   color: #3B3B3B;
@@ -6361,7 +6394,7 @@ Agency Menu Css
 }
 
 .details-share .details-share-info li {
-  background: #FF7342;
+  background: #6366F1;
   color: #fff;
   height: 24px;
   width: 24px;
@@ -6402,7 +6435,7 @@ Agency Menu Css
 }
 
 .details-share .details-share-like li {
-  color: #FF7342;
+  color: #6366F1;
   font-size: 28px;
   margin-right: 12px;
   -webkit-transition: all .1s ease-in-out;

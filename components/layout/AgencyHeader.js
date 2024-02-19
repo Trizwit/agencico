@@ -35,15 +35,14 @@ async function ToggleSubMenu(e){
     }catch(err){}
 }    
 
-return(
-<>
+return <>
 <nav ref={navRef}>
 <div className={`header-menu-area agency-menu ${isVisible?'':'sticky'} `}>
 <div className="container">
 <div className="row align-items-center">
     <div className="col-xxl-3 col-xl-2 col-lg-2 col-sm-6 col-6">
         <div className="logo text-left">
-            <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="173" height="50px"/></a></Link>
+            <Link href="/"><img src={NavConstant.Logo} quality={100} alt="" width="160" height="108"/></Link>
         </div>
     </div>
     <div className="col-xxl-6 col-xl-6 col-lg-8 col-sm-6 col-6">
@@ -54,47 +53,28 @@ return(
         </div>
         <nav className="main-nav" ref={navToggle}> 
             <div className="logo mobile-ham-logo d-lg-none d-block text-left">
-                <Link href="/"><a><Image src={NavConstant.Logo} alt="" width="173" height="50px"/></a></Link>
+                <Link href="/"><Image src={NavConstant.Logo} alt="" width="120" height="120"/></Link>
             </div>
             <ul>
+                <li><Link href="/agency" className="active">Home</Link></li>
+                <li><Link href="/about">About</Link></li>
                 <li className="has-child-menu">
-                    <Link href="/"><a className="active">Home</a></Link>
+                    <a>Products</a>
                     <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
                     <ul className="sub-menu">
-                        <li><Link href="/"><a>Sass</a></Link></li>
-                        <li><Link href="/travel"><a>Travel</a></Link></li>
-                        <li><Link href="/education"><a>Education</a></Link></li>
-                        <li><Link href="/job"><a>Job Finding</a></Link></li>
-                        <li><Link href="/agency"><a>Digital Agency</a></Link></li>
+                        <li><Link href="https://pindown.app/">Pindown</Link></li>
+                        <li><Link href="https://blockiot.trizwit.com/">BlockIoT</Link></li>
+                        <li><Link href="https://trizui.trizwit.com/">FASTN UI</Link></li>
                     </ul>
                 </li>
-                <li><Link href="/about"><a>About</a></Link></li>
-                <li><Link href="/services"><a>Services</a></Link></li>
-                <li className="has-child-menu">
-                    <Link href="/blog"><a>Blog</a></Link>
-                    <i className="fl flaticon-plus" onClick={ToggleSubMenu}>+</i>
-                    <ul className="sub-menu">
-                        <li><Link href="/blog"><a>Blog</a></Link></li>
-                        <li><Link href="/blog-detail"><a>Blog Details</a></Link></li>
-                    </ul>
-                </li>
-                <li><Link href="/contact"><a>Contact </a></Link></li>
+                <li><Link href="/contact">Contact </Link></li>
             </ul>
-            <div className="menu-btn-wrap d-block d-lg-none">
-             <Link href="/"><a className="log-btn">Log In</a></Link>
-            </div>
         </nav>
-    </div>
-    <div className="col-xxl-3 col-xl-4 col-lg-2 d-none d-lg-block">
-        <div className="menu-btn-wrap">
-            <Link href="/"><a className="log-btn">Log In</a></Link>
-        </div>
     </div>
 </div>
 </div>
 </div>
 </nav>
-</>
-)
+</>;
 }
 export default AgencyHeader

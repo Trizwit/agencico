@@ -1,4 +1,4 @@
-import TravelBottom from "../components/ header/TravelBottom"
+import TravelBottom from "../components/header/TravelBottom"
 import TravelHeader from "../components/layout/TravelHeader"
 import TravelDestinations from "../components/Travel/Destinations"
 import TravelPackage from "../components/Travel/Package/TravelPackage"

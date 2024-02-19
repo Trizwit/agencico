@@ -1,8 +1,7 @@
 import Link from "next/link"
 
 const JobSubsribe=()=>{
-return(
-<>
+return <>
 <div className="subscribe-area pt-100 pb-100">
 <div className="container">
 <div className="row">
@@ -16,7 +15,7 @@ return(
         </div>
         <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mobt-50 wow animate flipInX" data-wow-delay="400ms" data-wow-duration="1500ms">
             <div className="subscribe-btn-wrap text-lg-end">
-                <Link href="/"><a className="common-btn btn-style-1">Subscribe Now</a></Link>
+                <Link href="/" className="common-btn btn-style-1">Subscribe Now</Link>
             </div>
         </div>
     </div>
@@ -26,7 +25,6 @@ return(
 </div>
 <img className="shape h1-subscribe-dot" src="/assets/images/shape/h-1-subscribe.png" alt=""/>
 </div>
-</>
-)
+</>;
 }
 export default JobSubsribe

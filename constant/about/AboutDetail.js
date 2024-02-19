@@ -1,7 +1,7 @@
 
 const AboutDetail={
-    Title: "An <span>Exceptionally</span> unique experience Tailored to you",
-    short_desc:"Continually administrate process-centric human capital rather than bleeding-edge methodologies. Distinctively supply accurate methods of empowerment before",
+    Title: "<span>Realizing Technological Dreams with Unmatched Product Development Excellence",
+    short_desc:"The Trizwit team embarked on its journey in 2021 with a mission to assist startups facing challenges in launching an MVP to kickstart their entrepreneurial endeavors. Our vision extended beyond merely delivering a basic product; rather, we prioritized offering the finest, scalable, and cost-effective MVP solutions. Our dedication lies in constructing resilient and scalable products",
     services:[
         "Organize your data",
         "Always in sync",
@@ -9,14 +9,14 @@ const AboutDetail={
         "Embedded analytics"
     ],
     actionBtn:"Get Started Today",
-    leftImage:"/assets/images/about/excpt-img.png",
+    leftImage:"/assets/images/about/aboutus.png",
     feature:[
         {
-            title: "Our Customer",
+            title: "Our Customers",
             short_desc: "Business advisory service advises current and future business prospects of a client, with the aim of customers."
         },
         {
-            title: "Our Product",
+            title: "Our Products",
             short_desc: "Business advisory service advises current and future business prospects of a client, with the aim of customers."
         },
         {

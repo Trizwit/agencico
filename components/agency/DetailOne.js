@@ -2,8 +2,7 @@ import Link from "next/link"
 import AgencyConstantTwo from "../../constant/Agency/DetailTwo"
 
 const AgencyDetail=()=>{
-return(
-<>
+return <>
 <div className="ag-working-process">
 <div className="container">
 <div className="row align-items-center gy-4">
@@ -16,10 +15,7 @@ return(
                 <img src="/assets/images/agency/shapes/process-shape1.png" alt=""/>
             </div>
 
-            <div className="client-group">
-                <h6>{AgencyConstantTwo.box1.title}</h6>
-                <img src={AgencyConstantTwo.box1.groupImg} alt="" className="img-fluid"/>
-            </div>
+           
         </div>
         <div className="features-img-bg">
             <img src="/assets/images/agency/shapes/process-circle1.png" alt=""/>
@@ -36,9 +32,9 @@ return(
             <p>{AgencyConstantTwo.subTitle1}</p>
 
             <div className="process-btn">
-                <Link href="/">
-                    <a className="ag-btn-fill">
-                        {AgencyConstantTwo.actionBtn1}</a>
+                <Link href="/" className="ag-btn-fill">
+
+                    {AgencyConstantTwo.actionBtn1}
                 </Link>
             </div>
     </div>
@@ -54,7 +50,7 @@ return(
         <p>{AgencyConstantTwo.subTitle2}</p>
 
         <div className="process-btn">
-            <Link href="/"><a className="ag-btn-fill">{AgencyConstantTwo.actionBtn2}</a></Link>
+            <Link href="/" className="ag-btn-fill">{AgencyConstantTwo.actionBtn2}</Link>
         </div>
     </div>
 </div>
@@ -67,9 +63,7 @@ return(
                 <img src="/assets/images/agency/shapes/process-shape2.png" alt=""/>
             </div>
 
-            <div className="client-group client-group2">
-                <img src="assets/images/agency/shapes/increment-lavel.png" alt=""/>
-            </div>
+           
         </div>
         <div className="features-img-bg2">
             <img src="assets/images/agency/shapes/process-circle2.png" alt=""/>
@@ -80,7 +74,6 @@ return(
 </div>
 </div>
 </div>
-</>
-)
+</>;
 }
 export default AgencyDetail

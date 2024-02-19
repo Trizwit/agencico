@@ -17,8 +17,8 @@ const About = () => {
                 <BreadCrumb pagename="About Us" />
             </header>
             <AboutDetailOne />
-            <AboutFutured />
             <AboutWorkGrid />
+            <AboutFutured />
             <AboutTeam />
             <LayoutAppGrid />
             <TestimonialClient />

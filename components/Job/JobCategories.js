@@ -2,8 +2,7 @@ import Link from "next/link"
 import JobCatItem from "./JobCategory/Item"
 
 const JobCategories=()=>{
-return(
-<>
+return <>
 <div className="job-categories-area pb-76">
 <div className="container">
 <div className="row">
@@ -63,14 +62,13 @@ return(
     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 wow animate fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
         <div className="job-category-box job-category-explore">
             <div className="explore-content">
-                <h2>Explore <br/> 30 More <br/> Categories <Link href="/"><a><i className="bi bi-arrow-right-short"></i></a></Link></h2>
+                <h2>Explore <br/> 30 More <br/> Categories <Link href="/"><i className="bi bi-arrow-right-short"></i></Link></h2>
             </div>
         </div>
     </div>
 </div>
 </div>
 </div>
-</>
-)
+</>;
 }
 export default JobCategories

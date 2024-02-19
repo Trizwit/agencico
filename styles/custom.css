@@ -8,7 +8,7 @@
     box-shadow: none!important;
 }
 .rec-dot_active{
-    background-color: #ff7342!important;
+    background-color: #6366F1!important;
     border: none!important;
     outline: none!important;
     box-shadow: none!important;
@@ -351,7 +351,7 @@
     transition: 0.2s ease-in-out;
 }
 .tcsb_nav button:hover{
-    color: #ff7342;
+    color: #6366F1;
     transition: 0.2s ease-in-out;
 }
 .testimonial-img-slide-wrap{

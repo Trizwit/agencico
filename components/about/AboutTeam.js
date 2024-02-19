@@ -50,7 +50,7 @@ return(
     </div>
     <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12 mobt-24">
         <div className="section-text wow animate flipInX" data-wow-delay="300ms" data-wow-duration="1500ms">
-            <p>We have 700 plus official workers and thousands of remote workers. They do work them dedicated and they are expert in the particular topic.</p>
+            <p>We boast a formidable technical team capable of delivering products of any complexity and versatility with finesse</p>
         </div>
     </div>
 </div>
@@ -61,33 +61,27 @@ return(
      >
 
       <AboutTeamItem 
-       pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
+       pic="/assets/images/about/team-3.png"
+       name="Able Varghese"
+       position="Co-founder, Growth and Strategy Head"
       />
 
       <AboutTeamItem 
-       pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
+       pic="/assets/images/about/team-2.png"
+       name="Aswinraj K"
+       position="Co-founder, Administration and Finance Head"
+      />
+
+     <AboutTeamItem 
+       pic="/assets/images/about/team-4.png"
+       name="Athul A kumar"
+       position="Co-founder, Head of Operations"
       />
 
      <AboutTeamItem 
        pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
-      />
-
-     <AboutTeamItem 
-       pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
-      />
-
-      <AboutTeamItem 
-       pic="/assets/images/about/team-1.png"
-       name="Daniyel Vettori"
-       position="Web Developer"
+       name="Binil V Jacob"
+       position="Co-founder, Product and Technology Head"
       />
 
      </Carousel>

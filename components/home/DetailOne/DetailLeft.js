@@ -2,8 +2,7 @@ import Link from "next/link"
 import HomeDetailOne from "../../../constant/home/DetailOne"
 
 const DetailLeft=()=>{
-return(
-<>
+return <>
 <div className="col-xxl-6 col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
     <div className="everything-img-wrap">
         <img src="assets/images/shape/everything-hrrd.png" alt=""/>
@@ -43,13 +42,12 @@ return(
                 <p>Time to active in meeting</p>
             </div>
             <div className="time-cart-btn-wrap">
-             <Link href="/"><a className="time-cart-btn time-cart-btn-1">Schedule Post</a></Link>
-             <Link href="/"><a className="time-cart-btn time-cart-btn-2">See Insight</a></Link>
+             <Link href="/" className="time-cart-btn time-cart-btn-1">Schedule Post</Link>
+             <Link href="/" className="time-cart-btn time-cart-btn-2">See Insight</Link>
             </div>
         </div>
     </div>
 </div>
-</>
-)
+</>;
 }
 export default DetailLeft

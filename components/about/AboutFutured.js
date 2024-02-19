@@ -8,7 +8,7 @@ return(
 <div className="row">
     <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
         <div className="hrdd-section-title text-center wow animate fadeInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
-            <h1><span>Featured</span> We <br/> Provide for You</h1>
+            <h1><span>Mission</span></h1>
         </div>
     </div>
 </div>
@@ -16,32 +16,27 @@ return(
 
   <FuturedItem
    icon="/assets/images/icon/featured-icon-1.png"
-   title="Dashboard"
-   desc="Assertively parallel task synergistic deliverables after high-quality"
+   title="Guidance"
+   desc="
+   To offer expert consultation, guidance, and assistance to clients aiming to incorporate state-of-the-art technologies into their operations, products, and services."
   />
 
   <FuturedItem
    icon="/assets/images/icon/featured-icon-2.png"
-   title="Statistics"
-   desc="Assertively parallel task synergistic deliverables after high-quality"
+   title="Innovation"
+   desc="To cultivate the creation of inventive and impactful technical solutions that tackle real-world challenges and opportunities."
   />
 
  <FuturedItem
    icon="/assets/images/icon/featured-icon-3.png"
-   title="Easy Access"
-   desc="Assertively parallel task synergistic deliverables after high-quality"
+   title="Growth"
+   desc="To actively participate in advancing and refining the startup ecosystem by engaging with fellow stakeholders, exchanging knowledge, and pooling resources."
   />
 
   <FuturedItem
    icon="/assets/images/icon/featured-icon-4.png"
-   title="Collaboration"
-   desc="Assertively parallel task synergistic deliverables after high-quality"
-  />
-
-  <FuturedItem
-   icon="/assets/images/icon/featured-icon-5.png"
-   title="Total Control"
-   desc="Assertively parallel task synergistic deliverables after high-quality"
+   title="Educate"
+   desc="To inform and raise awareness regarding the advantages and implications of cutting-edge technologies, advocating for their adoption and conscientious utilization."
   />
 
 </div>

@@ -1,15 +1,15 @@
 
 const AgencyConstantOne = {
-   Title: "We help you to build your Business",
-   subTitle: "Enthusiastically extend extensive customer service before best-of-breed convergence completely.",
-   actionBtn: "Get a Quotes",
+   Title: "Turbocharge Your MVP Journey!",
+   subTitle: "Driving Innovation Beyond Boundaries: Your Trusted Partner in Tech Evolution.",
+   actionBtn: "Our Services",
    reviewLabel: {
-       title: "20k+ Customer Review",
+       title: "8+ Projects Done",
        pic: "/assets/images/agency/avater-sm.png"
    },
    ProjectLable: {
-       title: "Project Done",
-       count: "3,258"
+       title: "Projects Done",
+       count: "8"
    }
 }
 export default AgencyConstantOne

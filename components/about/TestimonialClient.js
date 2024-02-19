@@ -52,7 +52,7 @@ return(
     </div>
     <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12 mobt-24">
         <div className="section-text wow animate flipInX" data-wow-delay="300ms" data-wow-duration="1500ms">
-            <p>Trusted by over 40,000 worldwide customer since 2010. It’s awesome service. Land from day very fill that midst stars one dominion.</p>
+            <p>Trusted by over 10+ companies and 15+ clubs/communities since 2023.</p>
         </div>
     </div>
 </div>

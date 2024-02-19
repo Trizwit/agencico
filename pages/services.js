@@ -1,4 +1,4 @@
-import BreadCrumb from "../components/ header/breadcrumb"
+import BreadCrumb from "../components/header/breadcrumb"
 import Header from "../components/layout/header"
 import AllCounter from "../components/services/Allcounter"
 import ServicePricing from "../components/services/AllPricing"
