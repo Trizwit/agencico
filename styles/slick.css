@@ -2,7 +2,6 @@
 .slick-slider
 {
     position: relative;
-
     display: block;
     box-sizing: border-box;
 
@@ -117,3 +116,15 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.slick-arrow.prev::before {   
+    font-size: 30px; 
+    color: #404c99;
+    z-index: 2;
+}
+
+.slick-arrow.next::before {
+    font-size:30px; 
+    color: #404c99;
+}
+

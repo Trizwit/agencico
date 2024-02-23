@@ -98,7 +98,7 @@
     outline: none;
 }
 .slick-dots li.slick-active{
-    background-color: #f48345;
+    background-color: #8792da;
 }
 .slick-dots li.slick-active button{
     color: transparent!important;

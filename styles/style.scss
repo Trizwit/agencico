@@ -93,7 +93,7 @@ $ff-paytone: 'Paytone One', sans-serif;
 /* Color Variable */
 $ch-header-color:#183B56;
 $ch-text-color:#5A7184;
-$ch-primary-color: #FF8345;
+$ch-primary-color: #7481d6;
 $ch-secondary-color: #7BC678;
 
 $hrrd-primary-color: #6366F1;
@@ -659,7 +659,7 @@ input:-webkit-autofill {
 .hamburger span {
   width: 100%;
   height: 2px;
-  background: #FF8345;
+  background: #7481d6;
   display: block;
   position: absolute;
   right: 0;
@@ -932,7 +932,7 @@ input:-webkit-autofill {
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        color: #FF8345;
+        color: #7481d6;
         &:first-child{
           margin-right: 20px;
         }
@@ -1279,13 +1279,13 @@ input:-webkit-autofill {
       }
       &.active{
         background: #FDFDFD;
-        border: 0.5px solid #FF8345;
+        border: 0.5px solid #7481d6;
         box-sizing: border-box;
         position: relative;
         &::before{
           width: 7.12px;
           height: 7.12px;
-          background: #FF8345;
+          background: #7481d6;
           position: absolute;
           content: "";
           border-radius: 50%;
@@ -4344,7 +4344,7 @@ tri hero style end
       display: inline-flex;
 
       i{
-        color: #FF8345;
+        color: #7481d6;
         margin-left: 10px;
         &::before{
           vertical-align: middle;
@@ -5668,7 +5668,7 @@ Agency Menu Css
   .sk-cube-grid .sk-cube {
     width: 33%;
     height: 33%;
-    background-color: #FF8345;
+    background-color: #7481d6;
     float: left;
     -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
             animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
@@ -5743,7 +5743,7 @@ Agency Menu Css
   box-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
   &:hover{
     i{
-      color: #FF8345;
+      color: #7481d6;
     }
   }
   i{

@@ -252,7 +252,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .common-btn.btn-style-1 {
-  background: #FF8345;
+  background: #7481d6;
 }
 
 .common-btn.btn-style-1::before {
@@ -264,7 +264,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .common-btn.btn-style-2::before {
-  background: #FF8345;
+  background: #7481d6;
 }
 
 .common-btn.btn-hrrd-2 {
@@ -755,7 +755,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .main-nav > ul > li:hover > a {
-  color: #FF8345;
+  color: #7481d6;
 }
 
 .main-nav > ul > li:hover > a:after {
@@ -975,7 +975,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  color: #FF8345;
+  color: #7481d6;
 }
 
 .hero-content .recent-search ul li:first-child {
@@ -995,7 +995,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .hero-content .recent-search ul li a:hover {
-  background: #FF8345;
+  background: #7481d6;
   color: #fff;
 }
 
@@ -1109,7 +1109,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .job-category-box:hover .job-category-icon i {
-  background: #FF8345;
+  background: #7481d6;
   -webkit-box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.08);
           box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.08);
   color: #fff;
@@ -1132,7 +1132,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   border-radius: 50%;
   -webkit-transition: .5s;
   transition: .5s;
-  color: #FF8345;
+  color: #7481d6;
 }
 
 .job-category-box .job-category-content h3 {
@@ -1157,8 +1157,8 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .job-category-box.job-category-explore {
-  background: url(/assets/images/job-category-shape.png), -webkit-gradient(linear, left top, left bottom, color-stop(100%, #ff8345), to(#ff8345));
-  background: url(/assets/images/job-category-shape.png), linear-gradient(#ff8345 100%, #ff8345 100%);
+  background: url(/assets/images/job-category-shape.png), -webkit-gradient(linear, left top, left bottom, color-stop(100%, #7481d6), to(#7481d6));
+  background: url(/assets/images/job-category-shape.png), linear-gradient(#7481d6 100%, #7481d6 100%);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border: none;
@@ -1235,7 +1235,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #FF8345;
+  color: #7481d6;
   font-size: 17px;
 }
 
@@ -1267,7 +1267,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .single-popular-job-item:hover .popular-job-content h3 a {
-  color: #FF8345;
+  color: #7481d6;
 }
 
 .single-popular-job-item .program-time {
@@ -1389,7 +1389,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 
 .popular-job-slide .owl-dots button.active {
   background: #FDFDFD;
-  border: 0.5px solid #FF8345;
+  border: 0.5px solid #7481d6;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative;
@@ -1398,7 +1398,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 .popular-job-slide .owl-dots button.active::before {
   width: 7.12px;
   height: 7.12px;
-  background: #FF8345;
+  background: #7481d6;
   position: absolute;
   content: "";
   border-radius: 50%;
@@ -1613,7 +1613,7 @@ input:-webkit-autofill:hover, input:-webkit-autofill:focus {
 }
 
 .single-widget .footer-link ul li a:hover, .single-widget .contact-info ul li a:hover {
-  color: #FF8345;
+  color: #7481d6;
 }
 
 .single-widget .footer-link ul li:last-child, .single-widget .contact-info ul li:last-child {
@@ -4955,7 +4955,7 @@ tri hero style end
 }
 
 .tri-maulti-searchbar .filter-single h5 i {
-  color: #FF8345;
+  color: #7481d6;
   margin-left: 10px;
 }
 
@@ -6492,7 +6492,7 @@ Agency Menu Css
 .sk-cube-grid .sk-cube {
   width: 33%;
   height: 33%;
-  background-color: #FF8345;
+  background-color: #7481d6;
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
   animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
@@ -6586,7 +6586,7 @@ Agency Menu Css
 }
 
 .back-to-top-btn:hover i {
-  color: #FF8345;
+  color: #7481d6;
 }
 
 .back-to-top-btn i {
@@ -6600,3 +6600,4 @@ Agency Menu Css
   vertical-align: middle;
 }
 /*# sourceMappingURL=style.css.map */
+
